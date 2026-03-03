@@ -1,0 +1,15 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_picking_form_inherit_elinvoice" model="ir.ui.view">
+            <field name="name">stock.picking.form.inherit.elinvoice</field>
+            <field name="model">stock.picking</field>
+            <field name="inherit_id" ref="stock.view_picking_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//header//button[@name='action_cancel']" position="after">
+                    <button string="Procesar MH" type="object" name="create_confirmation" invisible="1" class="oe_highlight"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

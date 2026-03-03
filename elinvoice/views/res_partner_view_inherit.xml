@@ -1,0 +1,40 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_res_partner_form_inherit_elinvoice" model="ir.ui.view">
+            <field name="name">res.partner.form.inherit.elinvoice</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//sheet//notebook" position="inside">
+                    <page string="Informacion MH">
+                        <group name="container_row_2">
+                            <group string="Datos" name="info_mh" priority="1">
+                                <field name="tipodocumento" />
+                                <field name="numdocumento" />
+                                <field name="nit" />
+                                <field name="nrc" />
+                                <field name="is_internal" />
+                                <field name="categoria" />
+                            </group>
+                            <group string="Actividad" name="activ_mh" priority="2">
+                                <!-- <field name="codactividad" /> -->
+                                <!-- <field name="descactividad" /> -->
+                                <!-- <field name="codpais" /> -->
+                                <!-- <field name="nombrepais" /> -->
+                                <!-- <field name="departamento" /> -->
+                                <!-- <field name="municipio" /> -->
+                                <field name="tipo_persona" />
+                                <field name="pais_id" />
+                                <field name="departamento_id" />
+                                <field name="municipio_id" />
+                                <field name="complemento" />
+                                <field name="actividad_economica_id" />
+                            </group>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

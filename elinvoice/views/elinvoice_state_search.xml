@@ -1,0 +1,26 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+         <record id="elinvoice_state_list" model="ir.ui.view">
+            <field name="name">elinvoice.state.list</field>
+            <field name="model">elinvoice.state</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="code"/>
+                    <field name="name"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="elinvoice_state_search" model="ir.ui.view">
+            <field name="name">elinvoice.state.search</field>
+            <field name="model">elinvoice.state</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="code"/>
+                    <field name="name"/>
+                </search>
+            </field>
+        </record>
+    </data>
+</odoo>

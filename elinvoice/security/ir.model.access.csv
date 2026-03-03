@@ -1,0 +1,17 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+elinvoice_confirmation_admin,elinvoice.confirmation,model_elinvoice_confirmation,account.group_account_manager,1,1,1,1
+elinvoice_confirmation_user,elinvoice.confirmation,model_elinvoice_confirmation,account.group_account_invoice,1,1,1,0
+elinvoice_configuration_admin,elinvoice.configuration,model_elinvoice_configuration,account.group_account_manager,1,1,1,1
+elinvoice_configuration_user,elinvoice.configuration,model_elinvoice_configuration,account.group_account_invoice,1,1,1,0
+elinvoice_export_wizard_admin,elinvoice.export_wizard,model_elinvoice_export_wizard,account.group_account_manager,1,1,1,1
+elinvoice_export_wizard_user,elinvoice.export_wizard,model_elinvoice_export_wizard,account.group_account_invoice,1,1,1,0
+elinvoice_country_admin,elinvoice.country,model_elinvoice_country,account.group_account_manager,1,0,0,0
+elinvoice_country_user,elinvoice.country,model_elinvoice_country,account.group_account_invoice,1,0,0,0
+elinvoice_state_admin,elinvoice.state,model_elinvoice_state,account.group_account_manager,1,0,0,0
+elinvoice_state_user,elinvoice.state,model_elinvoice_state,account.group_account_invoice,1,0,0,0
+elinvoice_city_admin,elinvoice.city,model_elinvoice_city,account.group_account_manager,1,0,0,0
+elinvoice_city_user,elinvoice.city,model_elinvoice_city,account.group_account_invoice,1,0,0,0
+elinvoice_economic_activity_admin,elinvoice.economic_activity,model_elinvoice_economic_activity,account.group_account_manager,1,0,0,0
+elinvoice_economic_activity_user,elinvoice.economic_activity,model_elinvoice_economic_activity,account.group_account_invoice,1,0,0,0
+elinvoice_export_kardex_admin,elinvoice.export_kardex,model_elinvoice_export_kardex,account.group_account_manager,1,1,1,1
+elinvoice_export_kardex_user,elinvoice.export_kardex,model_elinvoice_export_kardex,account.group_account_invoice,1,1,1,0

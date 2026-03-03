@@ -1,0 +1,14 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_elinvoice_configuration_list" model="ir.ui.view">
+            <field name="name">elinvoice.configuration.list</field>
+            <field name="model">elinvoice.configuration</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="api_url"/>
+                </list>
+            </field>
+        </record>
+    </data>
+</odoo>

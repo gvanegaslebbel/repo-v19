@@ -1,0 +1,28 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="configuration_list_action" model="ir.actions.act_window">
+        <field name="name">Configuracion</field>
+        <field name="res_model">elinvoice.configuration</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <!-- Contabilidad -->
+    <menuitem id="menu_elinvoice_configurations" name="Facturacion Electrónica" parent="account.menu_finance_configuration" action="configuration_list_action" sequence="10"/>
+
+    <menuitem 
+        id="menu_elinvoice_fiscal_report"
+        name="Reportes Fiscales"
+        parent="account.menu_finance_reports"
+        sequence="10"
+        action="launch_export_view"/>
+    
+
+    <!-- Stock -->
+    <menuitem 
+        id="menu_elinvoice_kardex_report"
+        name="Reporte Kardex"
+        parent="stock.menu_warehouse_report"
+        sequence="10"
+        action="launch_export_kardex"/>
+
+</odoo>

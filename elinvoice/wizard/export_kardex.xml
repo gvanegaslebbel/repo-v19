@@ -1,0 +1,37 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="export_kardex_view_form" model="ir.ui.view">
+        <field name="name">export.kardex.view.form</field>
+        <field name="model">elinvoice.export_kardex</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <label for="product_id" string="Producto" />
+                    <field name="product_id" placeholder="Seleccione" nolabel="1" />
+
+                    <label for="file_format" string="Formato del reporte " />
+                    <field name="file_format" placeholder="Seleccione" nolabel="1" />
+    
+                    <label for="date_from" string="Desde " />
+                    <field name="date_from" nolabel="1" />
+    
+                    <label for="date_to" string="Hasta " />
+                    <field name="date_to" nolabel="1" />
+                </group>
+
+                <footer>
+                    <button string="Descargar" class="oe_highlight" type="object" icon="fa-cloud-download" name="get_report"/>
+                    <button string="Cancelar" class="oe_link" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="launch_export_kardex">
+        <field name="name">Reporte Kardex</field>
+        <field name="res_model">elinvoice.export_kardex</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="export_kardex_view_form"/>
+        <field name="target">new</field>
+    </record>
+</odoo>

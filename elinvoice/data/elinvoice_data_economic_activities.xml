@@ -1,0 +1,3461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- actividades económicas -->
+        <record id="economic_activity_1" model="elinvoice.economic_activity">
+            <field name="code">01111</field>
+            <field name="name">Cultivo de cereales excepto arroz y para forrajes</field>
+        </record>
+
+        <record id="economic_activity_2" model="elinvoice.economic_activity">
+            <field name="code">01112</field>
+            <field name="name">Cultivo de legumbres</field>
+        </record>
+
+        <record id="economic_activity_3" model="elinvoice.economic_activity">
+            <field name="code">01113</field>
+            <field name="name">Cultivo de semillas  oleaginosas</field>
+        </record>
+
+        <record id="economic_activity_4" model="elinvoice.economic_activity">
+            <field name="code">01114</field>
+            <field name="name">Cultivo de plantas para la preparación de semillas</field>
+        </record>
+
+        <record id="economic_activity_5" model="elinvoice.economic_activity">
+            <field name="code">01119</field>
+            <field name="name">Cultivo de otros cereales excepto arroz y forrajeros n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_6" model="elinvoice.economic_activity">
+            <field name="code">01120</field>
+            <field name="name">Cultivo de arroz</field>
+        </record>
+
+        <record id="economic_activity_7" model="elinvoice.economic_activity">
+            <field name="code">01131</field>
+            <field name="name">Cultivo de raíces y tubérculos</field>
+        </record>
+
+        <record id="economic_activity_8" model="elinvoice.economic_activity">
+            <field name="code">01132</field>
+            <field name="name">Cultivo de brotes, bulbos, vegetales tubérculos y cultivos similares</field>
+        </record>
+
+        <record id="economic_activity_9" model="elinvoice.economic_activity">
+            <field name="code">01133</field>
+            <field name="name">Cultivo hortícola de fruto</field>
+        </record>
+
+        <record id="economic_activity_10" model="elinvoice.economic_activity">
+            <field name="code">01134</field>
+            <field name="name">Cultivo de hortalizas de hoja y otras hortalizas n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_11" model="elinvoice.economic_activity">
+            <field name="code">01140</field>
+            <field name="name">Cultivo de caña de azúcar</field>
+        </record>
+
+        <record id="economic_activity_12" model="elinvoice.economic_activity">
+            <field name="code">01150</field>
+            <field name="name">Cultivo de tabaco</field>
+        </record>
+
+        <record id="economic_activity_13" model="elinvoice.economic_activity">
+            <field name="code">01161</field>
+            <field name="name">Cultivo de algodón</field>
+        </record>
+
+        <record id="economic_activity_14" model="elinvoice.economic_activity">
+            <field name="code">01162</field>
+            <field name="name">Cultivo de fibras vegetales excepto algodón</field>
+        </record>
+
+        <record id="economic_activity_15" model="elinvoice.economic_activity">
+            <field name="code">01191</field>
+            <field name="name">Cultivo de plantas no perennes  para la producción de semillas y flores</field>
+        </record>
+
+        <record id="economic_activity_16" model="elinvoice.economic_activity">
+            <field name="code">01192</field>
+            <field name="name">Cultivo de cereales y pastos para la alimentación animal</field>
+        </record>
+
+        <record id="economic_activity_17" model="elinvoice.economic_activity">
+            <field name="code">01199</field>
+            <field name="name">Producción de cultivos no estaciónales  n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_18" model="elinvoice.economic_activity">
+            <field name="code">01220</field>
+            <field name="name">Cultivo de frutas tropicales</field>
+        </record>
+
+        <record id="economic_activity_19" model="elinvoice.economic_activity">
+            <field name="code">01230</field>
+            <field name="name">Cultivo de cítricos</field>
+        </record>
+
+        <record id="economic_activity_20" model="elinvoice.economic_activity">
+            <field name="code">01240</field>
+            <field name="name">Cultivo de frutas de pepita y hueso</field>
+        </record>
+
+        <record id="economic_activity_21" model="elinvoice.economic_activity">
+            <field name="code">01251</field>
+            <field name="name">Cultivo de frutas n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_22" model="elinvoice.economic_activity">
+            <field name="code">01252</field>
+            <field name="name">Cultivo de otros frutos  y nueces de árboles y arbustos</field>
+        </record>
+
+        <record id="economic_activity_23" model="elinvoice.economic_activity">
+            <field name="code">01260</field>
+            <field name="name">Cultivo de frutos oleaginosos</field>
+        </record>
+
+        <record id="economic_activity_24" model="elinvoice.economic_activity">
+            <field name="code">01271</field>
+            <field name="name">Cultivo de café</field>
+        </record>
+
+        <record id="economic_activity_25" model="elinvoice.economic_activity">
+            <field name="code">01272</field>
+            <field name="name">Cultivo de plantas para la elaboración de bebidas excepto café</field>
+        </record>
+
+        <record id="economic_activity_26" model="elinvoice.economic_activity">
+            <field name="code">01281</field>
+            <field name="name">Cultivo de especias y aromáticas</field>
+        </record>
+
+        <record id="economic_activity_27" model="elinvoice.economic_activity">
+            <field name="code">01282</field>
+            <field name="name">Cultivo de plantas para la obtención de productos medicinales y farmacéuticos</field>
+        </record>
+
+        <record id="economic_activity_28" model="elinvoice.economic_activity">
+            <field name="code">01291</field>
+            <field name="name">Cultivo de árboles de hule (caucho) para la obtención de látex</field>
+        </record>
+
+        <record id="economic_activity_29" model="elinvoice.economic_activity">
+            <field name="code">01292</field>
+            <field name="name">Cultivo de plantas para la obtención de productos químicos y colorantes</field>
+        </record>
+
+        <record id="economic_activity_30" model="elinvoice.economic_activity">
+            <field name="code">01299</field>
+            <field name="name">Producción de cultivos perennes n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_31" model="elinvoice.economic_activity">
+            <field name="code">01300</field>
+            <field name="name">Propagación de plantas</field>
+        </record>
+
+        <record id="economic_activity_32" model="elinvoice.economic_activity">
+            <field name="code">01410</field>
+            <field name="name">Cría y engorde de ganado bovino</field>
+        </record>
+
+        <record id="economic_activity_33" model="elinvoice.economic_activity">
+            <field name="code">01420</field>
+            <field name="name">Cría de caballos y otros equinos</field>
+        </record>
+
+        <record id="economic_activity_34" model="elinvoice.economic_activity">
+            <field name="code">01440</field>
+            <field name="name">Cría de ovejas y cabras</field>
+        </record>
+
+        <record id="economic_activity_35" model="elinvoice.economic_activity">
+            <field name="code">01450</field>
+            <field name="name">Cría de cerdos</field>
+        </record>
+
+        <record id="economic_activity_36" model="elinvoice.economic_activity">
+            <field name="code">01460</field>
+            <field name="name">Cría de aves de corral y producción de huevos</field>
+        </record>
+
+        <record id="economic_activity_37" model="elinvoice.economic_activity">
+            <field name="code">01491</field>
+            <field name="name">Cría de abejas apicultura para la obtención de miel y otros productos apícolas</field>
+        </record>
+
+        <record id="economic_activity_38" model="elinvoice.economic_activity">
+            <field name="code">01492</field>
+            <field name="name">Cría de conejos</field>
+        </record>
+
+        <record id="economic_activity_39" model="elinvoice.economic_activity">
+            <field name="code">01493</field>
+            <field name="name">Cría de iguanas y garrobos</field>
+        </record>
+
+        <record id="economic_activity_40" model="elinvoice.economic_activity">
+            <field name="code">01494</field>
+            <field name="name">Cría de mariposas y otros insectos</field>
+        </record>
+
+        <record id="economic_activity_41" model="elinvoice.economic_activity">
+            <field name="code">01499</field>
+            <field name="name">Cría y obtención de productos animales n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_42" model="elinvoice.economic_activity">
+            <field name="code">01500</field>
+            <field name="name">Cultivo de productos agrícolas en combinación con la cría de animales</field>
+        </record>
+
+        <record id="economic_activity_43" model="elinvoice.economic_activity">
+            <field name="code">01611</field>
+            <field name="name">Servicios de maquinaria agrícola</field>
+        </record>
+
+        <record id="economic_activity_44" model="elinvoice.economic_activity">
+            <field name="code">01612</field>
+            <field name="name">Control de plagas</field>
+        </record>
+
+        <record id="economic_activity_45" model="elinvoice.economic_activity">
+            <field name="code">01613</field>
+            <field name="name">Servicios de riego</field>
+        </record>
+
+        <record id="economic_activity_46" model="elinvoice.economic_activity">
+            <field name="code">01614</field>
+            <field name="name">Servicios de contratación de mano de obra para la agricultura</field>
+        </record>
+
+        <record id="economic_activity_47" model="elinvoice.economic_activity">
+            <field name="code">01619</field>
+            <field name="name">Servicios agrícolas n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_48" model="elinvoice.economic_activity">
+            <field name="code">01621</field>
+            <field name="name">Actividades para mejorar la reproducción , el crecimiento y el rendimiento de los animales y sus productos</field>
+        </record>
+
+        <record id="economic_activity_49" model="elinvoice.economic_activity">
+            <field name="code">01622</field>
+            <field name="name">Servicios de mano de obra pecuaria</field>
+        </record>
+
+        <record id="economic_activity_50" model="elinvoice.economic_activity">
+            <field name="code">01629</field>
+            <field name="name">Servicios pecuarios n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_51" model="elinvoice.economic_activity">
+            <field name="code">01631</field>
+            <field name="name">Labores post cosecha de preparación de los productos agrícolas para su comercialización o para la industria</field>
+        </record>
+
+        <record id="economic_activity_52" model="elinvoice.economic_activity">
+            <field name="code">01632</field>
+            <field name="name">Servicio de beneficio de café</field>
+        </record>
+
+        <record id="economic_activity_53" model="elinvoice.economic_activity">
+            <field name="code">01633</field>
+            <field name="name">Servicio de beneficiado de plantas textiles (incluye el beneficiado cuando este es realizado en la misma explotación agropecuaria)</field>
+        </record>
+
+        <record id="economic_activity_54" model="elinvoice.economic_activity">
+            <field name="code">01640</field>
+            <field name="name">TRATAMIENTO DE SEMILLAS PARA  LA PROPAGACIÓN</field>
+        </record>
+
+        <record id="economic_activity_55" model="elinvoice.economic_activity">
+            <field name="code">01700</field>
+            <field name="name">Caza ordinaria y mediante trampas, repoblación de animales de caza y servicios conexos</field>
+        </record>
+
+        <record id="economic_activity_56" model="elinvoice.economic_activity">
+            <field name="code">02100</field>
+            <field name="name">Silvicultura y otras actividades forestales</field>
+        </record>
+
+        <record id="economic_activity_57" model="elinvoice.economic_activity">
+            <field name="code">02200</field>
+            <field name="name">Extracción de madera</field>
+        </record>
+
+        <record id="economic_activity_58" model="elinvoice.economic_activity">
+            <field name="code">02300</field>
+            <field name="name">Recolección de productos diferentes a la madera</field>
+        </record>
+
+        <record id="economic_activity_59" model="elinvoice.economic_activity">
+            <field name="code">02400</field>
+            <field name="name">Servicios de apoyo a la silvicultura</field>
+        </record>
+
+        <record id="economic_activity_60" model="elinvoice.economic_activity">
+            <field name="code">03110</field>
+            <field name="name">Pesca marítima de altura y costera</field>
+        </record>
+
+        <record id="economic_activity_61" model="elinvoice.economic_activity">
+            <field name="code">03120</field>
+            <field name="name">Pesca de agua dulce</field>
+        </record>
+
+        <record id="economic_activity_62" model="elinvoice.economic_activity">
+            <field name="code">03210</field>
+            <field name="name">Acuicultura marítima</field>
+        </record>
+
+        <record id="economic_activity_63" model="elinvoice.economic_activity">
+            <field name="code">03220</field>
+            <field name="name">Acuicultura de agua dulce</field>
+        </record>
+
+        <record id="economic_activity_64" model="elinvoice.economic_activity">
+            <field name="code">03300</field>
+            <field name="name">Servicios de apoyo a la pesca y acuicultura</field>
+        </record>
+
+        <record id="economic_activity_65" model="elinvoice.economic_activity">
+            <field name="code">05100</field>
+            <field name="name">Extracción de hulla</field>
+        </record>
+
+        <record id="economic_activity_66" model="elinvoice.economic_activity">
+            <field name="code">05200</field>
+            <field name="name">Extracción  y aglomeración de  lignito</field>
+        </record>
+
+        <record id="economic_activity_67" model="elinvoice.economic_activity">
+            <field name="code">06100</field>
+            <field name="name">Extracción de petróleo crudo</field>
+        </record>
+
+        <record id="economic_activity_68" model="elinvoice.economic_activity">
+            <field name="code">06200</field>
+            <field name="name">Extracción de gas natural</field>
+        </record>
+
+        <record id="economic_activity_69" model="elinvoice.economic_activity">
+            <field name="code">07100</field>
+            <field name="name">Extracción de minerales  de hierro</field>
+        </record>
+
+        <record id="economic_activity_70" model="elinvoice.economic_activity">
+            <field name="code">07210</field>
+            <field name="name">Extracción de minerales de uranio y torio</field>
+        </record>
+
+        <record id="economic_activity_71" model="elinvoice.economic_activity">
+            <field name="code">07290</field>
+            <field name="name">Extracción de minerales metalíferos no ferrosos</field>
+        </record>
+
+        <record id="economic_activity_72" model="elinvoice.economic_activity">
+            <field name="code">08100</field>
+            <field name="name">Extracción de piedra, arena y arcilla</field>
+        </record>
+
+        <record id="economic_activity_73" model="elinvoice.economic_activity">
+            <field name="code">08910</field>
+            <field name="name">Extracción  de minerales para la fabricación de abonos  y productos químicos</field>
+        </record>
+
+        <record id="economic_activity_74" model="elinvoice.economic_activity">
+            <field name="code">08920</field>
+            <field name="name">Extracción y aglomeración de turba</field>
+        </record>
+
+        <record id="economic_activity_75" model="elinvoice.economic_activity">
+            <field name="code">08930</field>
+            <field name="name">Extracción de sal</field>
+        </record>
+
+        <record id="economic_activity_76" model="elinvoice.economic_activity">
+            <field name="code">08990</field>
+            <field name="name">Explotación de otras minas y canteras ncp</field>
+        </record>
+
+        <record id="economic_activity_77" model="elinvoice.economic_activity">
+            <field name="code">09100</field>
+            <field name="name">Actividades  de apoyo a la extracción de petróleo y gas natural</field>
+        </record>
+
+        <record id="economic_activity_78" model="elinvoice.economic_activity">
+            <field name="code">09900</field>
+            <field name="name">Actividades de apoyo a la  explotación de minas y canteras</field>
+        </record>
+
+        <record id="economic_activity_79" model="elinvoice.economic_activity">
+            <field name="code">10101</field>
+            <field name="name">Servicio de rastros y mataderos  de bovinos y porcinos</field>
+        </record>
+
+        <record id="economic_activity_80" model="elinvoice.economic_activity">
+            <field name="code">10102</field>
+            <field name="name">Matanza y procesamiento de bovinos y porcinos</field>
+        </record>
+
+        <record id="economic_activity_81" model="elinvoice.economic_activity">
+            <field name="code">10103</field>
+            <field name="name">Matanza y procesamientos de aves de corral</field>
+        </record>
+
+        <record id="economic_activity_82" model="elinvoice.economic_activity">
+            <field name="code">10104</field>
+            <field name="name">Elaboración y conservación de embutidos y tripas naturales</field>
+        </record>
+
+        <record id="economic_activity_83" model="elinvoice.economic_activity">
+            <field name="code">10105</field>
+            <field name="name">Servicios de conservación y empaque  de carnes</field>
+        </record>
+
+        <record id="economic_activity_84" model="elinvoice.economic_activity">
+            <field name="code">10106</field>
+            <field name="name">Elaboración y conservación de grasas y aceites animales</field>
+        </record>
+
+        <record id="economic_activity_85" model="elinvoice.economic_activity">
+            <field name="code">10107</field>
+            <field name="name">Servicios de molienda de carne</field>
+        </record>
+
+        <record id="economic_activity_86" model="elinvoice.economic_activity">
+            <field name="code">10108</field>
+            <field name="name">Elaboración de productos de carne n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_87" model="elinvoice.economic_activity">
+            <field name="code">10201</field>
+            <field name="name">Procesamiento y conservación de pescado, crustáceos y moluscos</field>
+        </record>
+
+        <record id="economic_activity_88" model="elinvoice.economic_activity">
+            <field name="code">10208</field>
+            <field name="name">Servicio de maquilado del procesamiento y conservación de pescado, crustáceos,  moluscos y otros productos acuáticos</field>
+        </record>
+
+        <record id="economic_activity_89" model="elinvoice.economic_activity">
+            <field name="code">10209</field>
+            <field name="name">Fabricación de productos de pescado n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_90" model="elinvoice.economic_activity">
+            <field name="code">10301</field>
+            <field name="name">Elaboración de jugos de frutas y hortalizas</field>
+        </record>
+
+        <record id="economic_activity_91" model="elinvoice.economic_activity">
+            <field name="code">10302</field>
+            <field name="name">Elaboración y envase de jaleas, mermeladas y frutas deshidratadas</field>
+        </record>
+
+        <record id="economic_activity_92" model="elinvoice.economic_activity">
+            <field name="code">10309</field>
+            <field name="name">Elaboración de productos de frutas y hortalizas n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_93" model="elinvoice.economic_activity">
+            <field name="code">10401</field>
+            <field name="name">Fabricación de aceites y grasas vegetales y animales comestibles</field>
+        </record>
+
+        <record id="economic_activity_94" model="elinvoice.economic_activity">
+            <field name="code">10402</field>
+            <field name="name">Fabricación de aceites y grasas vegetales y animales  no comestibles</field>
+        </record>
+
+        <record id="economic_activity_95" model="elinvoice.economic_activity">
+            <field name="code">10409</field>
+            <field name="name">Servicio de maquilado de aceites</field>
+        </record>
+
+        <record id="economic_activity_96" model="elinvoice.economic_activity">
+            <field name="code">10501</field>
+            <field name="name">Fabricación de productos lácteos excepto sorbetes y quesos sustitutos</field>
+        </record>
+
+        <record id="economic_activity_97" model="elinvoice.economic_activity">
+            <field name="code">10502</field>
+            <field name="name">Fabricación de sorbetes y Helados</field>
+        </record>
+
+        <record id="economic_activity_98" model="elinvoice.economic_activity">
+            <field name="code">10503</field>
+            <field name="name">Fabricación de quesos</field>
+        </record>
+
+        <record id="economic_activity_99" model="elinvoice.economic_activity">
+            <field name="code">10611</field>
+            <field name="name">Molienda de cereales</field>
+        </record>
+
+        <record id="economic_activity_100" model="elinvoice.economic_activity">
+            <field name="code">10612</field>
+            <field name="name">Elaboración de cereales para el desayuno y similares</field>
+        </record>
+
+        <record id="economic_activity_101" model="elinvoice.economic_activity">
+            <field name="code">10613</field>
+            <field name="name">Servicios de beneficiado de productos agrícolas ncp (excluye Beneficio de azúcar  rama 1072  y beneficio de café rama 0163)</field>
+        </record>
+
+        <record id="economic_activity_102" model="elinvoice.economic_activity">
+            <field name="code">10619</field>
+            <field name="name">Elaboración de otras harinas n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_103" model="elinvoice.economic_activity">
+            <field name="code">10621</field>
+            <field name="name">Fabricación de almidón</field>
+        </record>
+
+        <record id="economic_activity_104" model="elinvoice.economic_activity">
+            <field name="code">10628</field>
+            <field name="name">Servicio de molienda de maíz húmedo molino para nixtamal</field>
+        </record>
+
+        <record id="economic_activity_105" model="elinvoice.economic_activity">
+            <field name="code">10711</field>
+            <field name="name">Elaboración de tortillas</field>
+        </record>
+
+        <record id="economic_activity_106" model="elinvoice.economic_activity">
+            <field name="code">10712</field>
+            <field name="name">Fabricación de pan, galletas y barquillos</field>
+        </record>
+
+        <record id="economic_activity_107" model="elinvoice.economic_activity">
+            <field name="code">10713</field>
+            <field name="name">Fabricación de repostería</field>
+        </record>
+
+        <record id="economic_activity_108" model="elinvoice.economic_activity">
+            <field name="code">10721</field>
+            <field name="name">Ingenios azucareros</field>
+        </record>
+
+        <record id="economic_activity_109" model="elinvoice.economic_activity">
+            <field name="code">10722</field>
+            <field name="name">Molienda de caña de azúcar para la elaboración de dulces</field>
+        </record>
+
+        <record id="economic_activity_110" model="elinvoice.economic_activity">
+            <field name="code">10723</field>
+            <field name="name">Elaboración de jarabes de azúcar y otros similares</field>
+        </record>
+
+        <record id="economic_activity_111" model="elinvoice.economic_activity">
+            <field name="code">10724</field>
+            <field name="name">Maquilado de azúcar de caña</field>
+        </record>
+
+        <record id="economic_activity_112" model="elinvoice.economic_activity">
+            <field name="code">10730</field>
+            <field name="name">Fabricación de cacao, chocolates y  productos de confitería</field>
+        </record>
+
+        <record id="economic_activity_113" model="elinvoice.economic_activity">
+            <field name="code">10740</field>
+            <field name="name">Elaboración de macarrones, fideos, y productos farináceos similares</field>
+        </record>
+
+        <record id="economic_activity_114" model="elinvoice.economic_activity">
+            <field name="code">10750</field>
+            <field name="name">Elaboración de comidas y platos preparados para la reventa en locales y/o  para exportación</field>
+        </record>
+
+        <record id="economic_activity_115" model="elinvoice.economic_activity">
+            <field name="code">10791</field>
+            <field name="name">Elaboración de productos de café</field>
+        </record>
+
+        <record id="economic_activity_116" model="elinvoice.economic_activity">
+            <field name="code">10792</field>
+            <field name="name">Elaboración de especies, sazonadores y condimentos</field>
+        </record>
+
+        <record id="economic_activity_117" model="elinvoice.economic_activity">
+            <field name="code">10793</field>
+            <field name="name">Elaboración de sopas, cremas y consomé</field>
+        </record>
+
+        <record id="economic_activity_118" model="elinvoice.economic_activity">
+            <field name="code">10794</field>
+            <field name="name">Fabricación de bocadillos tostados y/o fritos</field>
+        </record>
+
+        <record id="economic_activity_119" model="elinvoice.economic_activity">
+            <field name="code">10799</field>
+            <field name="name">Elaboración de productos alimenticios ncp</field>
+        </record>
+
+        <record id="economic_activity_120" model="elinvoice.economic_activity">
+            <field name="code">10800</field>
+            <field name="name">Elaboración de alimentos preparados para animales</field>
+        </record>
+
+        <record id="economic_activity_121" model="elinvoice.economic_activity">
+            <field name="code">11012</field>
+            <field name="name">Fabricación de aguardiente y licores</field>
+        </record>
+
+        <record id="economic_activity_122" model="elinvoice.economic_activity">
+            <field name="code">11020</field>
+            <field name="name">Elaboración de vinos</field>
+        </record>
+
+        <record id="economic_activity_123" model="elinvoice.economic_activity">
+            <field name="code">11030</field>
+            <field name="name">Fabricación de cerveza</field>
+        </record>
+
+        <record id="economic_activity_124" model="elinvoice.economic_activity">
+            <field name="code">11041</field>
+            <field name="name">Fabricación de aguas gaseosas</field>
+        </record>
+
+        <record id="economic_activity_125" model="elinvoice.economic_activity">
+            <field name="code">11042</field>
+            <field name="name">Fabricación y envasado  de agua</field>
+        </record>
+
+        <record id="economic_activity_126" model="elinvoice.economic_activity">
+            <field name="code">11043</field>
+            <field name="name">Elaboración de refrescos</field>
+        </record>
+
+        <record id="economic_activity_127" model="elinvoice.economic_activity">
+            <field name="code">11048</field>
+            <field name="name">Maquilado de aguas gaseosas</field>
+        </record>
+
+        <record id="economic_activity_128" model="elinvoice.economic_activity">
+            <field name="code">12000</field>
+            <field name="name">Elaboración de productos de tabaco</field>
+        </record>
+
+        <record id="economic_activity_129" model="elinvoice.economic_activity">
+            <field name="code">13111</field>
+            <field name="name">Preparación de fibras textiles</field>
+        </record>
+
+        <record id="economic_activity_130" model="elinvoice.economic_activity">
+            <field name="code">13112</field>
+            <field name="name">Fabricación de hilados</field>
+        </record>
+
+        <record id="economic_activity_131" model="elinvoice.economic_activity">
+            <field name="code">13118</field>
+            <field name="name">Maquilado de hilos</field>
+        </record>
+
+        <record id="economic_activity_132" model="elinvoice.economic_activity">
+            <field name="code">13120</field>
+            <field name="name">Fabricación de telas</field>
+        </record>
+
+        <record id="economic_activity_133" model="elinvoice.economic_activity">
+            <field name="code">13128</field>
+            <field name="name">Maquilado de telas</field>
+        </record>
+
+        <record id="economic_activity_134" model="elinvoice.economic_activity">
+            <field name="code">13130</field>
+            <field name="name">Acabado de productos textiles</field>
+        </record>
+
+        <record id="economic_activity_135" model="elinvoice.economic_activity">
+            <field name="code">13910</field>
+            <field name="name">Fabricación de tejidos de punto y  ganchillo</field>
+        </record>
+
+        <record id="economic_activity_136" model="elinvoice.economic_activity">
+            <field name="code">13921</field>
+            <field name="name">Fabricación de productos textiles para el hogar</field>
+        </record>
+
+        <record id="economic_activity_137" model="elinvoice.economic_activity">
+            <field name="code">13922</field>
+            <field name="name">Sacos, bolsas y otros artículos textiles</field>
+        </record>
+
+        <record id="economic_activity_138" model="elinvoice.economic_activity">
+            <field name="code">13929</field>
+            <field name="name">Fabricación de artículos confeccionados con materiales textiles, excepto prendas de vestir n.c.p</field>
+        </record>
+
+        <record id="economic_activity_139" model="elinvoice.economic_activity">
+            <field name="code">13930</field>
+            <field name="name">Fabricación de tapices y alfombras</field>
+        </record>
+
+        <record id="economic_activity_140" model="elinvoice.economic_activity">
+            <field name="code">13941</field>
+            <field name="name">Fabricación de cuerdas de henequén y otras fibras naturales.( lazos, pitas)</field>
+        </record>
+
+        <record id="economic_activity_141" model="elinvoice.economic_activity">
+            <field name="code">13942</field>
+            <field name="name">Fabricación de redes de diversos materiales</field>
+        </record>
+
+        <record id="economic_activity_142" model="elinvoice.economic_activity">
+            <field name="code">13948</field>
+            <field name="name">Maquilado de productos trenzables de cualquier material (petates, sillas, etc.)</field>
+        </record>
+
+        <record id="economic_activity_143" model="elinvoice.economic_activity">
+            <field name="code">13991</field>
+            <field name="name">Fabricación de adornos, etiquetas y otros artículos para prendas de vestir</field>
+        </record>
+
+        <record id="economic_activity_144" model="elinvoice.economic_activity">
+            <field name="code">13992</field>
+            <field name="name">Servicio de bordados en artículos y prendas de tela</field>
+        </record>
+
+        <record id="economic_activity_145" model="elinvoice.economic_activity">
+            <field name="code">13999</field>
+            <field name="name">Fabricación de productos textiles n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_146" model="elinvoice.economic_activity">
+            <field name="code">14101</field>
+            <field name="name">Fabricación de ropa  interior, para dormir y similares</field>
+        </record>
+
+        <record id="economic_activity_147" model="elinvoice.economic_activity">
+            <field name="code">14102</field>
+            <field name="name">Fabricación de ropa para niños</field>
+        </record>
+
+        <record id="economic_activity_148" model="elinvoice.economic_activity">
+            <field name="code">14103</field>
+            <field name="name">Fabricación de prendas de vestir para ambos sexos</field>
+        </record>
+
+        <record id="economic_activity_149" model="elinvoice.economic_activity">
+            <field name="code">14104</field>
+            <field name="name">Confección de prendas a medida</field>
+        </record>
+
+        <record id="economic_activity_150" model="elinvoice.economic_activity">
+            <field name="code">14105</field>
+            <field name="name">Fabricación de prendas de vestir para deportes</field>
+        </record>
+
+        <record id="economic_activity_151" model="elinvoice.economic_activity">
+            <field name="code">14106</field>
+            <field name="name">Elaboración de artesanías de uso personal confeccionadas especialmente de materiales textiles</field>
+        </record>
+
+        <record id="economic_activity_152" model="elinvoice.economic_activity">
+            <field name="code">14108</field>
+            <field name="name">Maquilado  de prendas de vestir, accesorios y otros</field>
+        </record>
+
+        <record id="economic_activity_153" model="elinvoice.economic_activity">
+            <field name="code">14109</field>
+            <field name="name">Fabricación de prendas  y accesorios de vestir n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_154" model="elinvoice.economic_activity">
+            <field name="code">14200</field>
+            <field name="name">Fabricación de Artículos de piel</field>
+        </record>
+
+        <record id="economic_activity_155" model="elinvoice.economic_activity">
+            <field name="code">14301</field>
+            <field name="name">Fabricación de calcetines, calcetas, medias (panty house) y otros similares</field>
+        </record>
+
+        <record id="economic_activity_156" model="elinvoice.economic_activity">
+            <field name="code">14302</field>
+            <field name="name">Fabricación de ropa interior de tejido de punto</field>
+        </record>
+
+        <record id="economic_activity_157" model="elinvoice.economic_activity">
+            <field name="code">14309</field>
+            <field name="name">Fabricación de prendas de vestir de tejido de punto n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_158" model="elinvoice.economic_activity">
+            <field name="code">15110</field>
+            <field name="name">Curtido y adobo de cueros; adobo y teñido de pieles</field>
+        </record>
+
+        <record id="economic_activity_159" model="elinvoice.economic_activity">
+            <field name="code">15121</field>
+            <field name="name">Fabricación de maletas, bolsos de mano y otros artículos de marroquinería</field>
+        </record>
+
+        <record id="economic_activity_160" model="elinvoice.economic_activity">
+            <field name="code">15122</field>
+            <field name="name">Fabricación de monturas, accesorios y vainas  talabartería</field>
+        </record>
+
+        <record id="economic_activity_161" model="elinvoice.economic_activity">
+            <field name="code">15123</field>
+            <field name="name">Fabricación  de artesanías principalmente de cuero natural y sintético</field>
+        </record>
+
+        <record id="economic_activity_162" model="elinvoice.economic_activity">
+            <field name="code">15128</field>
+            <field name="name">Maquilado de artículos de cuero natural, sintético y de otros materiales</field>
+        </record>
+
+        <record id="economic_activity_163" model="elinvoice.economic_activity">
+            <field name="code">15201</field>
+            <field name="name">Fabricación de calzado</field>
+        </record>
+
+        <record id="economic_activity_164" model="elinvoice.economic_activity">
+            <field name="code">15202</field>
+            <field name="name">Fabricación de partes y accesorios de calzado</field>
+        </record>
+
+        <record id="economic_activity_165" model="elinvoice.economic_activity">
+            <field name="code">15208</field>
+            <field name="name">Maquilado  de calzado y partes de calzado</field>
+        </record>
+
+        <record id="economic_activity_166" model="elinvoice.economic_activity">
+            <field name="code">16100</field>
+            <field name="name">Aserradero y acepilladura de madera</field>
+        </record>
+
+        <record id="economic_activity_167" model="elinvoice.economic_activity">
+            <field name="code">16210</field>
+            <field name="name">Fabricación de madera laminada, terciada, enchapada y contrachapada , paneles para la construcción</field>
+        </record>
+
+        <record id="economic_activity_168" model="elinvoice.economic_activity">
+            <field name="code">16220</field>
+            <field name="name">Fabricación de partes y piezas de carpintería para edificios y construcciones</field>
+        </record>
+
+        <record id="economic_activity_169" model="elinvoice.economic_activity">
+            <field name="code">16230</field>
+            <field name="name">Fabricación de envases y recipientes de madera</field>
+        </record>
+
+        <record id="economic_activity_170" model="elinvoice.economic_activity">
+            <field name="code">16291</field>
+            <field name="name">Suprimido</field>
+        </record>
+
+        <record id="economic_activity_171" model="elinvoice.economic_activity">
+            <field name="code">16292</field>
+            <field name="name">Fabricación de artesanías de madera, semillas,  materiales trenzables</field>
+        </record>
+
+        <record id="economic_activity_172" model="elinvoice.economic_activity">
+            <field name="code">16299</field>
+            <field name="name">Fabricación de productos de madera, corcho, paja y materiales trenzables n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_173" model="elinvoice.economic_activity">
+            <field name="code">17010</field>
+            <field name="name">Fabricación de pasta de madera, papel y cartón</field>
+        </record>
+
+        <record id="economic_activity_174" model="elinvoice.economic_activity">
+            <field name="code">17020</field>
+            <field name="name">Fabricación de papel y cartón ondulado y envases de papel y cartón</field>
+        </record>
+
+        <record id="economic_activity_175" model="elinvoice.economic_activity">
+            <field name="code">17091</field>
+            <field name="name">Fabricación de artículos de papel y cartón de uso personal y doméstico</field>
+        </record>
+
+        <record id="economic_activity_176" model="elinvoice.economic_activity">
+            <field name="code">17092</field>
+            <field name="name">Fabricación de productos de papel n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_177" model="elinvoice.economic_activity">
+            <field name="code">18110</field>
+            <field name="name">Impresión</field>
+        </record>
+
+        <record id="economic_activity_178" model="elinvoice.economic_activity">
+            <field name="code">18120</field>
+            <field name="name">Servicios relacionados con la impresión</field>
+        </record>
+
+        <record id="economic_activity_179" model="elinvoice.economic_activity">
+            <field name="code">18200</field>
+            <field name="name">Reproducción de grabaciones</field>
+        </record>
+
+        <record id="economic_activity_180" model="elinvoice.economic_activity">
+            <field name="code">19100</field>
+            <field name="name">Fabricación de productos de hornos de coque</field>
+        </record>
+
+        <record id="economic_activity_181" model="elinvoice.economic_activity">
+            <field name="code">19201</field>
+            <field name="name">Fabricación de combustible</field>
+        </record>
+
+        <record id="economic_activity_182" model="elinvoice.economic_activity">
+            <field name="code">19202</field>
+            <field name="name">Fabricación de aceites y lubricantes</field>
+        </record>
+
+        <record id="economic_activity_183" model="elinvoice.economic_activity">
+            <field name="code">20111</field>
+            <field name="name">Fabricación de materias primas para la fabricación de colorantes</field>
+        </record>
+
+        <record id="economic_activity_184" model="elinvoice.economic_activity">
+            <field name="code">20112</field>
+            <field name="name">Fabricación de materiales curtientes</field>
+        </record>
+
+        <record id="economic_activity_185" model="elinvoice.economic_activity">
+            <field name="code">20113</field>
+            <field name="name">Fabricación de gases industriales</field>
+        </record>
+
+        <record id="economic_activity_186" model="elinvoice.economic_activity">
+            <field name="code">20114</field>
+            <field name="name">Fabricación de alcohol etílico</field>
+        </record>
+
+        <record id="economic_activity_187" model="elinvoice.economic_activity">
+            <field name="code">20119</field>
+            <field name="name">Fabricación de sustancias químicas básicas</field>
+        </record>
+
+        <record id="economic_activity_188" model="elinvoice.economic_activity">
+            <field name="code">20120</field>
+            <field name="name">Fabricación de abonos y fertilizantes</field>
+        </record>
+
+        <record id="economic_activity_189" model="elinvoice.economic_activity">
+            <field name="code">20130</field>
+            <field name="name">Fabricación de plástico y caucho en formas primarias</field>
+        </record>
+
+        <record id="economic_activity_190" model="elinvoice.economic_activity">
+            <field name="code">20210</field>
+            <field name="name">Fabricación de plaguicidas y otros productos químicos de uso agropecuario</field>
+        </record>
+
+        <record id="economic_activity_191" model="elinvoice.economic_activity">
+            <field name="code">20220</field>
+            <field name="name">Fabricación de pinturas, barnices y productos de revestimiento similares; tintas de imprenta y masillas</field>
+        </record>
+
+        <record id="economic_activity_192" model="elinvoice.economic_activity">
+            <field name="code">20231</field>
+            <field name="name">Fabricación de jabones, detergentes y similares para limpieza</field>
+        </record>
+
+        <record id="economic_activity_193" model="elinvoice.economic_activity">
+            <field name="code">20232</field>
+            <field name="name">Fabricación de perfumes, cosméticos y productos de higiene y cuidado personal, incluyendo tintes, champú, etc.</field>
+        </record>
+
+        <record id="economic_activity_194" model="elinvoice.economic_activity">
+            <field name="code">20291</field>
+            <field name="name">Fabricación de tintas y colores para escribir y pintar; fabricación de cintas para impresoras</field>
+        </record>
+
+        <record id="economic_activity_195" model="elinvoice.economic_activity">
+            <field name="code">20292</field>
+            <field name="name">Fabricación de productos pirotécnicos, explosivos y municiones</field>
+        </record>
+
+        <record id="economic_activity_196" model="elinvoice.economic_activity">
+            <field name="code">20299</field>
+            <field name="name">Fabricación de productos químicos n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_197" model="elinvoice.economic_activity">
+            <field name="code">20300</field>
+            <field name="name">Fabricación de fibras artificiales</field>
+        </record>
+
+        <record id="economic_activity_198" model="elinvoice.economic_activity">
+            <field name="code">21001</field>
+            <field name="name">Manufactura de productos farmacéuticos, sustancias químicas y productos botánicos</field>
+        </record>
+
+        <record id="economic_activity_199" model="elinvoice.economic_activity">
+            <field name="code">21008</field>
+            <field name="name">Maquilado de medicamentos</field>
+        </record>
+
+        <record id="economic_activity_200" model="elinvoice.economic_activity">
+            <field name="code">22110</field>
+            <field name="name">Fabricación de cubiertas y cámaras; renovación y recauchutado de cubiertas</field>
+        </record>
+
+        <record id="economic_activity_201" model="elinvoice.economic_activity">
+            <field name="code">22190</field>
+            <field name="name">Fabricación de otros productos de caucho</field>
+        </record>
+
+        <record id="economic_activity_202" model="elinvoice.economic_activity">
+            <field name="code">22201</field>
+            <field name="name">Fabricación de envases plásticos</field>
+        </record>
+
+        <record id="economic_activity_203" model="elinvoice.economic_activity">
+            <field name="code">22202</field>
+            <field name="name">Fabricación de productos plásticos para uso personal o doméstico</field>
+        </record>
+
+        <record id="economic_activity_204" model="elinvoice.economic_activity">
+            <field name="code">22208</field>
+            <field name="name">Maquila de plásticos</field>
+        </record>
+
+        <record id="economic_activity_205" model="elinvoice.economic_activity">
+            <field name="code">22209</field>
+            <field name="name">Fabricación de productos plásticos n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_206" model="elinvoice.economic_activity">
+            <field name="code">23101</field>
+            <field name="name">Fabricación de vidrio</field>
+        </record>
+
+        <record id="economic_activity_207" model="elinvoice.economic_activity">
+            <field name="code">23102</field>
+            <field name="name">Fabricación de recipientes y envases de vidrio</field>
+        </record>
+
+        <record id="economic_activity_208" model="elinvoice.economic_activity">
+            <field name="code">23108</field>
+            <field name="name">Servicio de maquilado</field>
+        </record>
+
+        <record id="economic_activity_209" model="elinvoice.economic_activity">
+            <field name="code">23109</field>
+            <field name="name">Fabricación de productos de vidrio n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_210" model="elinvoice.economic_activity">
+            <field name="code">23910</field>
+            <field name="name">Fabricación de productos refractarios</field>
+        </record>
+
+        <record id="economic_activity_211" model="elinvoice.economic_activity">
+            <field name="code">23920</field>
+            <field name="name">Fabricación de productos de arcilla para la construcción</field>
+        </record>
+
+        <record id="economic_activity_212" model="elinvoice.economic_activity">
+            <field name="code">23931</field>
+            <field name="name">Fabricación de productos de cerámica y porcelana no refractaria</field>
+        </record>
+
+        <record id="economic_activity_213" model="elinvoice.economic_activity">
+            <field name="code">23932</field>
+            <field name="name">Fabricación de productos de cerámica y porcelana n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_214" model="elinvoice.economic_activity">
+            <field name="code">23940</field>
+            <field name="name">Fabricación de cemento, cal y yeso</field>
+        </record>
+
+        <record id="economic_activity_215" model="elinvoice.economic_activity">
+            <field name="code">23950</field>
+            <field name="name">Fabricación de artículos de hormigón, cemento y yeso</field>
+        </record>
+
+        <record id="economic_activity_216" model="elinvoice.economic_activity">
+            <field name="code">23960</field>
+            <field name="name">Corte, tallado y acabado de la piedra</field>
+        </record>
+
+        <record id="economic_activity_217" model="elinvoice.economic_activity">
+            <field name="code">23990</field>
+            <field name="name">Fabricación de productos minerales no metálicos n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_218" model="elinvoice.economic_activity">
+            <field name="code">24100</field>
+            <field name="name">Industria básicas de hierro y acero</field>
+        </record>
+
+        <record id="economic_activity_219" model="elinvoice.economic_activity">
+            <field name="code">24200</field>
+            <field name="name">Industria básicas de metales no ferrosos</field>
+        </record>
+
+        <record id="economic_activity_220" model="elinvoice.economic_activity">
+            <field name="code">24310</field>
+            <field name="name">Fundición de hierro y acero</field>
+        </record>
+
+        <record id="economic_activity_221" model="elinvoice.economic_activity">
+            <field name="code">24320</field>
+            <field name="name">Fundición de metales no ferrosos</field>
+        </record>
+
+        <record id="economic_activity_222" model="elinvoice.economic_activity">
+            <field name="code">25111</field>
+            <field name="name">Fabricación de productos metálicos para uso estructural</field>
+        </record>
+
+        <record id="economic_activity_223" model="elinvoice.economic_activity">
+            <field name="code">25118</field>
+            <field name="name">Servicio de maquila para la fabricación de estructuras metálicas</field>
+        </record>
+
+        <record id="economic_activity_224" model="elinvoice.economic_activity">
+            <field name="code">25120</field>
+            <field name="name">Fabricación de tanques, depósitos y recipientes de metal</field>
+        </record>
+
+        <record id="economic_activity_225" model="elinvoice.economic_activity">
+            <field name="code">25130</field>
+            <field name="name">Fabricación de generadores de vapor, excepto calderas de agua caliente  para calefacción central</field>
+        </record>
+
+        <record id="economic_activity_226" model="elinvoice.economic_activity">
+            <field name="code">25200</field>
+            <field name="name">Fabricación de armas y municiones</field>
+        </record>
+
+        <record id="economic_activity_227" model="elinvoice.economic_activity">
+            <field name="code">25910</field>
+            <field name="name">Forjado, prensado, estampado y laminado de metales; pulvimetalurgia</field>
+        </record>
+
+        <record id="economic_activity_228" model="elinvoice.economic_activity">
+            <field name="code">25920</field>
+            <field name="name">Tratamiento y revestimiento de metales</field>
+        </record>
+
+        <record id="economic_activity_229" model="elinvoice.economic_activity">
+            <field name="code">25930</field>
+            <field name="name">Fabricación de artículos de cuchillería, herramientas de mano y artículos de ferretería</field>
+        </record>
+
+        <record id="economic_activity_230" model="elinvoice.economic_activity">
+            <field name="code">25991</field>
+            <field name="name">Fabricación de envases y artículos conexos de metal</field>
+        </record>
+
+        <record id="economic_activity_231" model="elinvoice.economic_activity">
+            <field name="code">25992</field>
+            <field name="name">Fabricación de artículos metálicos de uso personal y/o doméstico</field>
+        </record>
+
+        <record id="economic_activity_232" model="elinvoice.economic_activity">
+            <field name="code">25999</field>
+            <field name="name">Fabricación de productos elaborados de metal n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_233" model="elinvoice.economic_activity">
+            <field name="code">26100</field>
+            <field name="name">Fabricación de componentes electrónicos</field>
+        </record>
+
+        <record id="economic_activity_234" model="elinvoice.economic_activity">
+            <field name="code">26200</field>
+            <field name="name">Fabricación de computadoras y equipo conexo</field>
+        </record>
+
+        <record id="economic_activity_235" model="elinvoice.economic_activity">
+            <field name="code">26300</field>
+            <field name="name">Fabricación de equipo de comunicaciones</field>
+        </record>
+
+        <record id="economic_activity_236" model="elinvoice.economic_activity">
+            <field name="code">26400</field>
+            <field name="name">Fabricación de aparatos  electrónicos de consumo para audio, video radio y televisión</field>
+        </record>
+
+        <record id="economic_activity_237" model="elinvoice.economic_activity">
+            <field name="code">26510</field>
+            <field name="name">Fabricación de instrumentos y aparatos para medir, verificar, ensayar, navegar y de control de procesos industriales</field>
+        </record>
+
+        <record id="economic_activity_238" model="elinvoice.economic_activity">
+            <field name="code">26520</field>
+            <field name="name">Fabricación de relojes y piezas de relojes</field>
+        </record>
+
+        <record id="economic_activity_239" model="elinvoice.economic_activity">
+            <field name="code">26600</field>
+            <field name="name">Fabricación de equipo medico de irradiación y equipo electrónico de uso medico y terapéutico</field>
+        </record>
+
+        <record id="economic_activity_240" model="elinvoice.economic_activity">
+            <field name="code">26700</field>
+            <field name="name">Fabricación de instrumentos de óptica y equipo fotográfico</field>
+        </record>
+
+        <record id="economic_activity_241" model="elinvoice.economic_activity">
+            <field name="code">26800</field>
+            <field name="name">Fabricación de medios magnéticos y ópticos</field>
+        </record>
+
+        <record id="economic_activity_242" model="elinvoice.economic_activity">
+            <field name="code">27100</field>
+            <field name="name">Fabricación de motores, generadores , transformadores eléctricos, aparatos de distribución y control de electricidad</field>
+        </record>
+
+        <record id="economic_activity_243" model="elinvoice.economic_activity">
+            <field name="code">27200</field>
+            <field name="name">Fabricación de pilas, baterías y acumuladores</field>
+        </record>
+
+        <record id="economic_activity_244" model="elinvoice.economic_activity">
+            <field name="code">27310</field>
+            <field name="name">Fabricación de cables de fibra óptica</field>
+        </record>
+
+        <record id="economic_activity_245" model="elinvoice.economic_activity">
+            <field name="code">27320</field>
+            <field name="name">Fabricación de otros  hilos y cables eléctricos</field>
+        </record>
+
+        <record id="economic_activity_246" model="elinvoice.economic_activity">
+            <field name="code">27330</field>
+            <field name="name">Fabricación  de dispositivos de cableados</field>
+        </record>
+
+        <record id="economic_activity_247" model="elinvoice.economic_activity">
+            <field name="code">27400</field>
+            <field name="name">Fabricación de equipo eléctrico de iluminación</field>
+        </record>
+
+        <record id="economic_activity_248" model="elinvoice.economic_activity">
+            <field name="code">27500</field>
+            <field name="name">Fabricación de aparatos de uso doméstico</field>
+        </record>
+
+        <record id="economic_activity_249" model="elinvoice.economic_activity">
+            <field name="code">27900</field>
+            <field name="name">Fabricación de otros tipos de equipo eléctrico</field>
+        </record>
+
+        <record id="economic_activity_250" model="elinvoice.economic_activity">
+            <field name="code">28110</field>
+            <field name="name">Fabricación de motores y turbinas, excepto motores para aeronaves, vehículos automotores y motocicletas</field>
+        </record>
+
+        <record id="economic_activity_251" model="elinvoice.economic_activity">
+            <field name="code">28120</field>
+            <field name="name">Fabricación de equipo hidráulico</field>
+        </record>
+
+        <record id="economic_activity_252" model="elinvoice.economic_activity">
+            <field name="code">28130</field>
+            <field name="name">FABRICACIÓN DE OTRAS BOMBAS, COMPRESORES, GRIFOS Y VÁLVULAS</field>
+        </record>
+
+        <record id="economic_activity_253" model="elinvoice.economic_activity">
+            <field name="code">28140</field>
+            <field name="name">Fabricación de cojinetes, engranajes, trenes de engranajes y piezas de transmisión</field>
+        </record>
+
+        <record id="economic_activity_254" model="elinvoice.economic_activity">
+            <field name="code">28150</field>
+            <field name="name">Fabricación de hornos y quemadores</field>
+        </record>
+
+        <record id="economic_activity_255" model="elinvoice.economic_activity">
+            <field name="code">28160</field>
+            <field name="name">Fabricación de equipo de elevación y manipulación</field>
+        </record>
+
+        <record id="economic_activity_256" model="elinvoice.economic_activity">
+            <field name="code">28170</field>
+            <field name="name">Fabricación de maquinaria y equipo de oficina</field>
+        </record>
+
+        <record id="economic_activity_257" model="elinvoice.economic_activity">
+            <field name="code">28180</field>
+            <field name="name">Fabricación de herramientas manuales</field>
+        </record>
+
+        <record id="economic_activity_258" model="elinvoice.economic_activity">
+            <field name="code">28190</field>
+            <field name="name">Fabricación de otros tipos de maquinaria de uso general</field>
+        </record>
+
+        <record id="economic_activity_259" model="elinvoice.economic_activity">
+            <field name="code">28210</field>
+            <field name="name">Fabricación de maquinaria agropecuaria y forestal</field>
+        </record>
+
+        <record id="economic_activity_260" model="elinvoice.economic_activity">
+            <field name="code">28220</field>
+            <field name="name">Fabricación de máquinas para conformar metales y maquinaria herramienta</field>
+        </record>
+
+        <record id="economic_activity_261" model="elinvoice.economic_activity">
+            <field name="code">28230</field>
+            <field name="name">Fabricación de maquinaria metalúrgica</field>
+        </record>
+
+        <record id="economic_activity_262" model="elinvoice.economic_activity">
+            <field name="code">28240</field>
+            <field name="name">Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción</field>
+        </record>
+
+        <record id="economic_activity_263" model="elinvoice.economic_activity">
+            <field name="code">28250</field>
+            <field name="name">Fabricación de maquinaria para la elaboración de alimentos, bebidas y tabaco</field>
+        </record>
+
+        <record id="economic_activity_264" model="elinvoice.economic_activity">
+            <field name="code">28260</field>
+            <field name="name">Fabricación de maquinaria para la elaboración de productos textiles, prendas de vestir y cueros</field>
+        </record>
+
+        <record id="economic_activity_265" model="elinvoice.economic_activity">
+            <field name="code">28291</field>
+            <field name="name">Fabricación de máquinas para imprenta</field>
+        </record>
+
+        <record id="economic_activity_266" model="elinvoice.economic_activity">
+            <field name="code">28299</field>
+            <field name="name">Fabricación de maquinaria de uso especial n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_267" model="elinvoice.economic_activity">
+            <field name="code">29100</field>
+            <field name="name">Fabricación vehículos automotores</field>
+        </record>
+
+        <record id="economic_activity_268" model="elinvoice.economic_activity">
+            <field name="code">29200</field>
+            <field name="name">Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques</field>
+        </record>
+
+        <record id="economic_activity_269" model="elinvoice.economic_activity">
+            <field name="code">29300</field>
+            <field name="name">Fabricación de partes, piezas y accesorios para vehículos automotores</field>
+        </record>
+
+        <record id="economic_activity_270" model="elinvoice.economic_activity">
+            <field name="code">30110</field>
+            <field name="name">Fabricación de buques</field>
+        </record>
+
+        <record id="economic_activity_271" model="elinvoice.economic_activity">
+            <field name="code">30120</field>
+            <field name="name">Construcción y reparación de embarcaciones de recreo</field>
+        </record>
+
+        <record id="economic_activity_272" model="elinvoice.economic_activity">
+            <field name="code">30200</field>
+            <field name="name">Fabricación de locomotoras y de material rodante</field>
+        </record>
+
+        <record id="economic_activity_273" model="elinvoice.economic_activity">
+            <field name="code">30300</field>
+            <field name="name">Fabricación de aeronaves y naves espaciales</field>
+        </record>
+
+        <record id="economic_activity_274" model="elinvoice.economic_activity">
+            <field name="code">30400</field>
+            <field name="name">Fabricación de vehículos militares de combate</field>
+        </record>
+
+        <record id="economic_activity_275" model="elinvoice.economic_activity">
+            <field name="code">30910</field>
+            <field name="name">Fabricación de motocicletas</field>
+        </record>
+
+        <record id="economic_activity_276" model="elinvoice.economic_activity">
+            <field name="code">30920</field>
+            <field name="name">Fabricación de bicicletas y sillones de ruedas para inválidos</field>
+        </record>
+
+        <record id="economic_activity_277" model="elinvoice.economic_activity">
+            <field name="code">30990</field>
+            <field name="name">Fabricación de equipo de transporte n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_278" model="elinvoice.economic_activity">
+            <field name="code">31001</field>
+            <field name="name">Fabricación de colchones y somier</field>
+        </record>
+
+        <record id="economic_activity_279" model="elinvoice.economic_activity">
+            <field name="code">31002</field>
+            <field name="name">Fabricación de muebles y otros productos de madera a medida</field>
+        </record>
+
+        <record id="economic_activity_280" model="elinvoice.economic_activity">
+            <field name="code">31008</field>
+            <field name="name">Servicios de maquilado de muebles</field>
+        </record>
+
+        <record id="economic_activity_281" model="elinvoice.economic_activity">
+            <field name="code">31009</field>
+            <field name="name">Fabricación de muebles n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_282" model="elinvoice.economic_activity">
+            <field name="code">32110</field>
+            <field name="name">Fabricación de joyas platerías y joyerías</field>
+        </record>
+
+        <record id="economic_activity_283" model="elinvoice.economic_activity">
+            <field name="code">32120</field>
+            <field name="name">Fabricación de joyas de imitación (fantasía) y artículos conexos</field>
+        </record>
+
+        <record id="economic_activity_284" model="elinvoice.economic_activity">
+            <field name="code">32200</field>
+            <field name="name">Fabricación de instrumentos musicales</field>
+        </record>
+
+        <record id="economic_activity_285" model="elinvoice.economic_activity">
+            <field name="code">32301</field>
+            <field name="name">Fabricación de artículos de deporte</field>
+        </record>
+
+        <record id="economic_activity_286" model="elinvoice.economic_activity">
+            <field name="code">32308</field>
+            <field name="name">Servicio de maquila de productos deportivos</field>
+        </record>
+
+        <record id="economic_activity_287" model="elinvoice.economic_activity">
+            <field name="code">32401</field>
+            <field name="name">Fabricación de juegos de mesa y de salón</field>
+        </record>
+
+        <record id="economic_activity_288" model="elinvoice.economic_activity">
+            <field name="code">32402</field>
+            <field name="name">Servicio de maquilado de juguetes y juegos</field>
+        </record>
+
+        <record id="economic_activity_289" model="elinvoice.economic_activity">
+            <field name="code">32409</field>
+            <field name="name">Fabricación de juegos y juguetes n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_290" model="elinvoice.economic_activity">
+            <field name="code">32500</field>
+            <field name="name">Fabricación de instrumentos y materiales médicos y odontológicos</field>
+        </record>
+
+        <record id="economic_activity_291" model="elinvoice.economic_activity">
+            <field name="code">32901</field>
+            <field name="name">Fabricación de lápices, bolígrafos, sellos y artículos de librería en general</field>
+        </record>
+
+        <record id="economic_activity_292" model="elinvoice.economic_activity">
+            <field name="code">32902</field>
+            <field name="name">Fabricación de escobas, cepillos, pinceles y similares</field>
+        </record>
+
+        <record id="economic_activity_293" model="elinvoice.economic_activity">
+            <field name="code">32903</field>
+            <field name="name">Fabricación de artesanías de materiales diversos</field>
+        </record>
+
+        <record id="economic_activity_294" model="elinvoice.economic_activity">
+            <field name="code">32904</field>
+            <field name="name">Fabricación de artículos de uso personal y domésticos n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_295" model="elinvoice.economic_activity">
+            <field name="code">32905</field>
+            <field name="name">Fabricación de accesorios para las confecciones y la marroquinería n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_296" model="elinvoice.economic_activity">
+            <field name="code">32908</field>
+            <field name="name">Servicios de maquila n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_297" model="elinvoice.economic_activity">
+            <field name="code">32909</field>
+            <field name="name">Fabricación de productos manufacturados n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_298" model="elinvoice.economic_activity">
+            <field name="code">33110</field>
+            <field name="name">Reparación y mantenimiento de productos elaborados de metal</field>
+        </record>
+
+        <record id="economic_activity_299" model="elinvoice.economic_activity">
+            <field name="code">33120</field>
+            <field name="name">Reparación y mantenimiento de maquinaria</field>
+        </record>
+
+        <record id="economic_activity_300" model="elinvoice.economic_activity">
+            <field name="code">33130</field>
+            <field name="name">Reparación y mantenimiento de equipo electrónico y óptico</field>
+        </record>
+
+        <record id="economic_activity_301" model="elinvoice.economic_activity">
+            <field name="code">33140</field>
+            <field name="name">Reparación y mantenimiento  de equipo eléctrico</field>
+        </record>
+
+        <record id="economic_activity_302" model="elinvoice.economic_activity">
+            <field name="code">33150</field>
+            <field name="name">Reparación y mantenimiento de equipo de transporte, excepto vehículos automotores</field>
+        </record>
+
+        <record id="economic_activity_303" model="elinvoice.economic_activity">
+            <field name="code">33190</field>
+            <field name="name">Reparación y mantenimiento de equipos n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_304" model="elinvoice.economic_activity">
+            <field name="code">33200</field>
+            <field name="name">Instalación de maquinaria y equipo industrial</field>
+        </record>
+
+        <record id="economic_activity_305" model="elinvoice.economic_activity">
+            <field name="code">35101</field>
+            <field name="name">Generación de energía eléctrica</field>
+        </record>
+
+        <record id="economic_activity_306" model="elinvoice.economic_activity">
+            <field name="code">35102</field>
+            <field name="name">Transmisión de energía eléctrica</field>
+        </record>
+
+        <record id="economic_activity_307" model="elinvoice.economic_activity">
+            <field name="code">35103</field>
+            <field name="name">Distribución de energía eléctrica</field>
+        </record>
+
+        <record id="economic_activity_308" model="elinvoice.economic_activity">
+            <field name="code">35200</field>
+            <field name="name">Fabricación de gas, distribución de combustibles gaseosos por tuberías</field>
+        </record>
+
+        <record id="economic_activity_309" model="elinvoice.economic_activity">
+            <field name="code">35300</field>
+            <field name="name">Suministro de vapor y agua caliente</field>
+        </record>
+
+        <record id="economic_activity_310" model="elinvoice.economic_activity">
+            <field name="code">36000</field>
+            <field name="name">Captación, tratamiento y suministro de agua</field>
+        </record>
+
+        <record id="economic_activity_311" model="elinvoice.economic_activity">
+            <field name="code">37000</field>
+            <field name="name">Evacuación de aguas residuales (alcantarillado)</field>
+        </record>
+
+        <record id="economic_activity_312" model="elinvoice.economic_activity">
+            <field name="code">38110</field>
+            <field name="name">Recolección y transporte de desechos sólidos proveniente de hogares y  sector urbano</field>
+        </record>
+
+        <record id="economic_activity_313" model="elinvoice.economic_activity">
+            <field name="code">38120</field>
+            <field name="name">Recolección de desechos peligrosos</field>
+        </record>
+
+        <record id="economic_activity_314" model="elinvoice.economic_activity">
+            <field name="code">38210</field>
+            <field name="name">Tratamiento y eliminación de desechos inicuos</field>
+        </record>
+
+        <record id="economic_activity_315" model="elinvoice.economic_activity">
+            <field name="code">38220</field>
+            <field name="name">Tratamiento y eliminación de desechos peligrosos</field>
+        </record>
+
+        <record id="economic_activity_316" model="elinvoice.economic_activity">
+            <field name="code">38301</field>
+            <field name="name">Reciclaje de desperdicios y desechos textiles</field>
+        </record>
+
+        <record id="economic_activity_317" model="elinvoice.economic_activity">
+            <field name="code">38302</field>
+            <field name="name">Reciclaje de desperdicios y desechos de plástico y caucho</field>
+        </record>
+
+        <record id="economic_activity_318" model="elinvoice.economic_activity">
+            <field name="code">38303</field>
+            <field name="name">Reciclaje de desperdicios y desechos de vidrio</field>
+        </record>
+
+        <record id="economic_activity_319" model="elinvoice.economic_activity">
+            <field name="code">38304</field>
+            <field name="name">Reciclaje de desperdicios y desechos de papel y cartón</field>
+        </record>
+
+        <record id="economic_activity_320" model="elinvoice.economic_activity">
+            <field name="code">38305</field>
+            <field name="name">Reciclaje de desperdicios y desechos metálicos</field>
+        </record>
+
+        <record id="economic_activity_321" model="elinvoice.economic_activity">
+            <field name="code">38309</field>
+            <field name="name">Reciclaje de desperdicios y desechos no metálicos  n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_322" model="elinvoice.economic_activity">
+            <field name="code">39000</field>
+            <field name="name">Actividades de saneamiento y otros servicios de gestión de desechos</field>
+        </record>
+
+        <record id="economic_activity_323" model="elinvoice.economic_activity">
+            <field name="code">41001</field>
+            <field name="name">Construcción de edificios residenciales</field>
+        </record>
+
+        <record id="economic_activity_324" model="elinvoice.economic_activity">
+            <field name="code">41002</field>
+            <field name="name">Construcción de edificios no residenciales</field>
+        </record>
+
+        <record id="economic_activity_325" model="elinvoice.economic_activity">
+            <field name="code">42100</field>
+            <field name="name">Construcción de carreteras, calles y caminos</field>
+        </record>
+
+        <record id="economic_activity_326" model="elinvoice.economic_activity">
+            <field name="code">42200</field>
+            <field name="name">Construcción de proyectos de servicio público</field>
+        </record>
+
+        <record id="economic_activity_327" model="elinvoice.economic_activity">
+            <field name="code">42900</field>
+            <field name="name">Construcción de obras de ingeniería civil n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_328" model="elinvoice.economic_activity">
+            <field name="code">43110</field>
+            <field name="name">Demolición</field>
+        </record>
+
+        <record id="economic_activity_329" model="elinvoice.economic_activity">
+            <field name="code">43120</field>
+            <field name="name">Preparación de terreno</field>
+        </record>
+
+        <record id="economic_activity_330" model="elinvoice.economic_activity">
+            <field name="code">43210</field>
+            <field name="name">Instalaciones eléctricas</field>
+        </record>
+
+        <record id="economic_activity_331" model="elinvoice.economic_activity">
+            <field name="code">43220</field>
+            <field name="name">Instalación de fontanería, calefacción y aire acondicionado</field>
+        </record>
+
+        <record id="economic_activity_332" model="elinvoice.economic_activity">
+            <field name="code">43290</field>
+            <field name="name">Otras instalaciones para obras de construcción</field>
+        </record>
+
+        <record id="economic_activity_333" model="elinvoice.economic_activity">
+            <field name="code">43300</field>
+            <field name="name">Terminación y acabado de edificios</field>
+        </record>
+
+        <record id="economic_activity_334" model="elinvoice.economic_activity">
+            <field name="code">43900</field>
+            <field name="name">Otras actividades especializadas de construcción</field>
+        </record>
+
+        <record id="economic_activity_335" model="elinvoice.economic_activity">
+            <field name="code">45100</field>
+            <field name="name">Venta de vehículos automotores</field>
+        </record>
+
+        <record id="economic_activity_336" model="elinvoice.economic_activity">
+            <field name="code">45201</field>
+            <field name="name">Reparación mecánica de vehículos automotores</field>
+        </record>
+
+        <record id="economic_activity_337" model="elinvoice.economic_activity">
+            <field name="code">45202</field>
+            <field name="name">Reparaciones eléctricas del automotor y recarga de baterías</field>
+        </record>
+
+        <record id="economic_activity_338" model="elinvoice.economic_activity">
+            <field name="code">45203</field>
+            <field name="name">Enderezado y pintura de vehículos automotores</field>
+        </record>
+
+        <record id="economic_activity_339" model="elinvoice.economic_activity">
+            <field name="code">45204</field>
+            <field name="name">Reparaciones de radiadores, escapes y silenciadores</field>
+        </record>
+
+        <record id="economic_activity_340" model="elinvoice.economic_activity">
+            <field name="code">45205</field>
+            <field name="name">Reparación y reconstrucción de vías, stop, bómper y otros artículos de fibra de vidrio</field>
+        </record>
+
+        <record id="economic_activity_341" model="elinvoice.economic_activity">
+            <field name="code">45206</field>
+            <field name="name">Reparación de llantas de vehículos automotores</field>
+        </record>
+
+        <record id="economic_activity_342" model="elinvoice.economic_activity">
+            <field name="code">45207</field>
+            <field name="name">Polarizado de vehículos (mediante la adhesión de papel especial a los vidrios)</field>
+        </record>
+
+        <record id="economic_activity_343" model="elinvoice.economic_activity">
+            <field name="code">45208</field>
+            <field name="name">Lavado y pasteado de vehículos (carwash)</field>
+        </record>
+
+        <record id="economic_activity_344" model="elinvoice.economic_activity">
+            <field name="code">45209</field>
+            <field name="name">Reparaciones de vehículos n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_345" model="elinvoice.economic_activity">
+            <field name="code">45301</field>
+            <field name="name">Venta de partes, piezas y accesorios nuevos para vehículos automotores</field>
+        </record>
+
+        <record id="economic_activity_346" model="elinvoice.economic_activity">
+            <field name="code">45302</field>
+            <field name="name">Venta de partes, piezas y accesorios usados para vehículos automotores</field>
+        </record>
+
+        <record id="economic_activity_347" model="elinvoice.economic_activity">
+            <field name="code">45401</field>
+            <field name="name">Venta de motocicletas</field>
+        </record>
+
+        <record id="economic_activity_348" model="elinvoice.economic_activity">
+            <field name="code">45402</field>
+            <field name="name">Venta de repuestos, piezas y accesorios de motocicletas</field>
+        </record>
+
+        <record id="economic_activity_349" model="elinvoice.economic_activity">
+            <field name="code">45403</field>
+            <field name="name">Mantenimiento y reparación  de motocicletas</field>
+        </record>
+
+        <record id="economic_activity_350" model="elinvoice.economic_activity">
+            <field name="code">46100</field>
+            <field name="name">Venta al por mayor a cambio de retribución o por contrata</field>
+        </record>
+
+        <record id="economic_activity_351" model="elinvoice.economic_activity">
+            <field name="code">46201</field>
+            <field name="name">Venta al por mayor de materias primas agrícolas</field>
+        </record>
+
+        <record id="economic_activity_352" model="elinvoice.economic_activity">
+            <field name="code">46202</field>
+            <field name="name">Venta al por mayor de productos de la silvicultura</field>
+        </record>
+
+        <record id="economic_activity_353" model="elinvoice.economic_activity">
+            <field name="code">46203</field>
+            <field name="name">Venta al por mayor de productos pecuarios y de granja</field>
+        </record>
+
+        <record id="economic_activity_354" model="elinvoice.economic_activity">
+            <field name="code">46301</field>
+            <field name="name">Venta por mayor de alimentos</field>
+        </record>
+
+        <record id="economic_activity_355" model="elinvoice.economic_activity">
+            <field name="code">46302</field>
+            <field name="name">Venta al por mayor de bebidas</field>
+        </record>
+
+        <record id="economic_activity_356" model="elinvoice.economic_activity">
+            <field name="code">46303</field>
+            <field name="name">Venta al por mayor de tabaco</field>
+        </record>
+
+        <record id="economic_activity_357" model="elinvoice.economic_activity">
+            <field name="code">46411</field>
+            <field name="name">Venta al por mayor de hilados, tejidos y productos textiles de mercería</field>
+        </record>
+
+        <record id="economic_activity_358" model="elinvoice.economic_activity">
+            <field name="code">46412</field>
+            <field name="name">Venta al por mayor de artículos textiles excepto confecciones para el hogar</field>
+        </record>
+
+        <record id="economic_activity_359" model="elinvoice.economic_activity">
+            <field name="code">46413</field>
+            <field name="name">Venta al por mayor de confecciones textiles para el hogar</field>
+        </record>
+
+        <record id="economic_activity_360" model="elinvoice.economic_activity">
+            <field name="code">46414</field>
+            <field name="name">Venta al por mayor de prendas de vestir y accesorios de vestir</field>
+        </record>
+
+        <record id="economic_activity_361" model="elinvoice.economic_activity">
+            <field name="code">46415</field>
+            <field name="name">Venta al por mayor de ropa usada</field>
+        </record>
+
+        <record id="economic_activity_362" model="elinvoice.economic_activity">
+            <field name="code">46416</field>
+            <field name="name">Venta al por mayor de calzado</field>
+        </record>
+
+        <record id="economic_activity_363" model="elinvoice.economic_activity">
+            <field name="code">46417</field>
+            <field name="name">Venta al por mayor de artículos de marroquinería y talabartería</field>
+        </record>
+
+        <record id="economic_activity_364" model="elinvoice.economic_activity">
+            <field name="code">46418</field>
+            <field name="name">Venta al por mayor de artículos de peletería</field>
+        </record>
+
+        <record id="economic_activity_365" model="elinvoice.economic_activity">
+            <field name="code">46419</field>
+            <field name="name">Venta al por mayor de otros artículos textiles n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_366" model="elinvoice.economic_activity">
+            <field name="code">46491</field>
+            <field name="name">Venta al por mayor de productos medicinales, cosméticos, perfumería y productos de limpieza</field>
+        </record>
+
+        <record id="economic_activity_367" model="elinvoice.economic_activity">
+            <field name="code">46492</field>
+            <field name="name">Venta al por mayor de relojes y artículos de joyería</field>
+        </record>
+
+        <record id="economic_activity_368" model="elinvoice.economic_activity">
+            <field name="code">46493</field>
+            <field name="name">Venta al por mayor de electrodomésticos y artículos del hogar excepto bazar;  artículos de iluminación</field>
+        </record>
+
+        <record id="economic_activity_369" model="elinvoice.economic_activity">
+            <field name="code">46494</field>
+            <field name="name">Venta al por mayor de artículos de bazar y similares</field>
+        </record>
+
+        <record id="economic_activity_370" model="elinvoice.economic_activity">
+            <field name="code">46495</field>
+            <field name="name">Venta al por mayor de artículos de óptica y fotografía</field>
+        </record>
+
+        <record id="economic_activity_371" model="elinvoice.economic_activity">
+            <field name="code">46496</field>
+            <field name="name">Venta al por mayor de revistas, periódicos, libros, artículos de librería y artículos de papel y cartón en general</field>
+        </record>
+
+        <record id="economic_activity_372" model="elinvoice.economic_activity">
+            <field name="code">46497</field>
+            <field name="name">Venta de artículos deportivos, juguetes y rodados</field>
+        </record>
+
+        <record id="economic_activity_373" model="elinvoice.economic_activity">
+            <field name="code">46498</field>
+            <field name="name">Venta al por mayor de productos usados para el hogar o el uso personal</field>
+        </record>
+
+        <record id="economic_activity_374" model="elinvoice.economic_activity">
+            <field name="code">46499</field>
+            <field name="name">Venta al por mayor de enseres domésticos y de uso personal n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_375" model="elinvoice.economic_activity">
+            <field name="code">46510</field>
+            <field name="name">Venta al por mayor de computadoras, equipo periférico y programas informáticos</field>
+        </record>
+
+        <record id="economic_activity_376" model="elinvoice.economic_activity">
+            <field name="code">46520</field>
+            <field name="name">Venta al por mayor de equipos de comunicación</field>
+        </record>
+
+        <record id="economic_activity_377" model="elinvoice.economic_activity">
+            <field name="code">46530</field>
+            <field name="name">Venta al por mayor de maquinaria y equipo agropecuario, accesorios, partes y suministros</field>
+        </record>
+
+        <record id="economic_activity_378" model="elinvoice.economic_activity">
+            <field name="code">46591</field>
+            <field name="name">Venta al por mayor de maquinaria equipo, accesorios y materiales para la industria de la madera y  sus  productos</field>
+        </record>
+
+        <record id="economic_activity_379" model="elinvoice.economic_activity">
+            <field name="code">46592</field>
+            <field name="name">Venta al por mayor de maquinaria,  equipo, accesorios y materiales para las industria gráfica y del papel, cartón y productos de papel y cartón</field>
+        </record>
+
+        <record id="economic_activity_380" model="elinvoice.economic_activity">
+            <field name="code">46593</field>
+            <field name="name">Venta al por mayor de maquinaria, equipo, accesorios y materiales para la  industria de  productos químicos, plástico y caucho</field>
+        </record>
+
+        <record id="economic_activity_381" model="elinvoice.economic_activity">
+            <field name="code">46594</field>
+            <field name="name">Venta al por mayor de maquinaria, equipo, accesorios y materiales para la industria metálica y de sus productos</field>
+        </record>
+
+        <record id="economic_activity_382" model="elinvoice.economic_activity">
+            <field name="code">46595</field>
+            <field name="name">Venta al por mayor de equipamiento para uso médico, odontológico, veterinario y servicios conexos</field>
+        </record>
+
+        <record id="economic_activity_383" model="elinvoice.economic_activity">
+            <field name="code">46596</field>
+            <field name="name">Venta al por mayor de maquinaria, equipo, accesorios y partes para la industria de la alimentación</field>
+        </record>
+
+        <record id="economic_activity_384" model="elinvoice.economic_activity">
+            <field name="code">46597</field>
+            <field name="name">Venta al por mayor de maquinaria, equipo, accesorios y partes para la industria textil, confecciones y cuero</field>
+        </record>
+
+        <record id="economic_activity_385" model="elinvoice.economic_activity">
+            <field name="code">46598</field>
+            <field name="name">Venta al por mayor de maquinaria, equipo y accesorios para la construcción y explotación de minas y canteras</field>
+        </record>
+
+        <record id="economic_activity_386" model="elinvoice.economic_activity">
+            <field name="code">46599</field>
+            <field name="name">Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes</field>
+        </record>
+
+        <record id="economic_activity_387" model="elinvoice.economic_activity">
+            <field name="code">46610</field>
+            <field name="name">Venta al por mayor  de combustibles  sólidos, líquidos , gaseosos y de productos conexos</field>
+        </record>
+
+        <record id="economic_activity_388" model="elinvoice.economic_activity">
+            <field name="code">46620</field>
+            <field name="name">Venta al por mayor de metales y minerales metalíferos</field>
+        </record>
+
+        <record id="economic_activity_389" model="elinvoice.economic_activity">
+            <field name="code">46631</field>
+            <field name="name">Venta al por mayor de puertas, ventanas, vitrinas y similares</field>
+        </record>
+
+        <record id="economic_activity_390" model="elinvoice.economic_activity">
+            <field name="code">46632</field>
+            <field name="name">Venta al por mayor de artículos de ferretería y pinturerías</field>
+        </record>
+
+        <record id="economic_activity_391" model="elinvoice.economic_activity">
+            <field name="code">46633</field>
+            <field name="name">Vidrierías</field>
+        </record>
+
+        <record id="economic_activity_392" model="elinvoice.economic_activity">
+            <field name="code">46634</field>
+            <field name="name">Venta al por mayor de maderas</field>
+        </record>
+
+        <record id="economic_activity_393" model="elinvoice.economic_activity">
+            <field name="code">46639</field>
+            <field name="name">Venta al por mayor de materiales para la construcción n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_394" model="elinvoice.economic_activity">
+            <field name="code">46691</field>
+            <field name="name">Venta al por mayor de sal industrial sin yodar</field>
+        </record>
+
+        <record id="economic_activity_395" model="elinvoice.economic_activity">
+            <field name="code">46692</field>
+            <field name="name">Venta al por mayor de productos intermedios y desechos de origen textil</field>
+        </record>
+
+        <record id="economic_activity_396" model="elinvoice.economic_activity">
+            <field name="code">46693</field>
+            <field name="name">Venta al por mayor de productos intermedios y desechos de origen metálico</field>
+        </record>
+
+        <record id="economic_activity_397" model="elinvoice.economic_activity">
+            <field name="code">46694</field>
+            <field name="name">Venta al por mayor de productos intermedios y desechos de papel y cartón</field>
+        </record>
+
+        <record id="economic_activity_398" model="elinvoice.economic_activity">
+            <field name="code">46695</field>
+            <field name="name">Venta al por mayor fertilizantes, abonos, agroquímicos y productos similares</field>
+        </record>
+
+        <record id="economic_activity_399" model="elinvoice.economic_activity">
+            <field name="code">46696</field>
+            <field name="name">Venta al por mayor de productos intermedios y desechos de origen plástico</field>
+        </record>
+
+        <record id="economic_activity_400" model="elinvoice.economic_activity">
+            <field name="code">46697</field>
+            <field name="name">Venta al por mayor de tintas para imprenta, productos curtientes y materias y productos colorantes</field>
+        </record>
+
+        <record id="economic_activity_401" model="elinvoice.economic_activity">
+            <field name="code">46698</field>
+            <field name="name">Venta de productos intermedios y desechos de origen químico y de caucho</field>
+        </record>
+
+        <record id="economic_activity_402" model="elinvoice.economic_activity">
+            <field name="code">46699</field>
+            <field name="name">Venta al por mayor de productos intermedios y desechos n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_403" model="elinvoice.economic_activity">
+            <field name="code">46900</field>
+            <field name="name">Venta al por mayor  de otros productos</field>
+        </record>
+
+        <record id="economic_activity_404" model="elinvoice.economic_activity">
+            <field name="code">47111</field>
+            <field name="name">Venta en supermercados</field>
+        </record>
+
+        <record id="economic_activity_405" model="elinvoice.economic_activity">
+            <field name="code">47112</field>
+            <field name="name">Venta en tiendas</field>
+        </record>
+
+        <record id="economic_activity_406" model="elinvoice.economic_activity">
+            <field name="code">47190</field>
+            <field name="name">Venta al por menor de otros productos en comercios no especializados</field>
+        </record>
+
+        <record id="economic_activity_407" model="elinvoice.economic_activity">
+            <field name="code">47211</field>
+            <field name="name">Venta al por menor  de frutas y hortalizas</field>
+        </record>
+
+        <record id="economic_activity_408" model="elinvoice.economic_activity">
+            <field name="code">47212</field>
+            <field name="name">Venta al por menor de carnes, embutidos y productos de granja</field>
+        </record>
+
+        <record id="economic_activity_409" model="elinvoice.economic_activity">
+            <field name="code">47213</field>
+            <field name="name">Venta al por menor de pescado y mariscos</field>
+        </record>
+
+        <record id="economic_activity_410" model="elinvoice.economic_activity">
+            <field name="code">47214</field>
+            <field name="name">Venta al por menor de productos  lácteos</field>
+        </record>
+
+        <record id="economic_activity_411" model="elinvoice.economic_activity">
+            <field name="code">47215</field>
+            <field name="name">Venta al por menor de productos de panadería, repostería y galletas</field>
+        </record>
+
+        <record id="economic_activity_412" model="elinvoice.economic_activity">
+            <field name="code">47219</field>
+            <field name="name">Venta al por menor de alimentos n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_413" model="elinvoice.economic_activity">
+            <field name="code">47221</field>
+            <field name="name">Venta al por menor de hielo</field>
+        </record>
+
+        <record id="economic_activity_414" model="elinvoice.economic_activity">
+            <field name="code">47222</field>
+            <field name="name">Venta al por menor de bebidas (no para el consumo en el lugar de venta)</field>
+        </record>
+
+        <record id="economic_activity_415" model="elinvoice.economic_activity">
+            <field name="code">47230</field>
+            <field name="name">Venta al por menor de tabaco</field>
+        </record>
+
+        <record id="economic_activity_416" model="elinvoice.economic_activity">
+            <field name="code">47300</field>
+            <field name="name">Venta de combustibles, lubricantes y otros</field>
+        </record>
+
+        <record id="economic_activity_417" model="elinvoice.economic_activity">
+            <field name="code">47411</field>
+            <field name="name">Venta al por menor de computadoras y equipo periférico</field>
+        </record>
+
+        <record id="economic_activity_418" model="elinvoice.economic_activity">
+            <field name="code">47412</field>
+            <field name="name">Venta de equipo y accesorios de telecomunicación</field>
+        </record>
+
+        <record id="economic_activity_419" model="elinvoice.economic_activity">
+            <field name="code">47420</field>
+            <field name="name">Venta al por menor de equipo de audio y video</field>
+        </record>
+
+        <record id="economic_activity_420" model="elinvoice.economic_activity">
+            <field name="code">47510</field>
+            <field name="name">Venta al por menor de hilados, tejidos y productos textiles de mercería ; confecciones para el hogar y textiles n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_421" model="elinvoice.economic_activity">
+            <field name="code">47521</field>
+            <field name="name">Venta al por menor de productos de madera</field>
+        </record>
+
+        <record id="economic_activity_422" model="elinvoice.economic_activity">
+            <field name="code">47522</field>
+            <field name="name">Venta al por menor de artículos de ferretería</field>
+        </record>
+
+        <record id="economic_activity_423" model="elinvoice.economic_activity">
+            <field name="code">47523</field>
+            <field name="name">Venta al por menor de productos de pinturerías</field>
+        </record>
+
+        <record id="economic_activity_424" model="elinvoice.economic_activity">
+            <field name="code">47524</field>
+            <field name="name">Venta al por menor en vidrierías</field>
+        </record>
+
+        <record id="economic_activity_425" model="elinvoice.economic_activity">
+            <field name="code">47529</field>
+            <field name="name">Venta al por menor de materiales de construcción y artículos conexos</field>
+        </record>
+
+        <record id="economic_activity_426" model="elinvoice.economic_activity">
+            <field name="code">47530</field>
+            <field name="name">Venta al por menor de tapices, alfombras y revestimientos de paredes y pisos en comercios  especializados</field>
+        </record>
+
+        <record id="economic_activity_427" model="elinvoice.economic_activity">
+            <field name="code">47591</field>
+            <field name="name">Venta al por menor de muebles</field>
+        </record>
+
+        <record id="economic_activity_428" model="elinvoice.economic_activity">
+            <field name="code">47592</field>
+            <field name="name">Venta al por menor de artículos de bazar</field>
+        </record>
+
+        <record id="economic_activity_429" model="elinvoice.economic_activity">
+            <field name="code">47593</field>
+            <field name="name">Venta al por menor de electrodomésticos, instrumentos musicales y similares de uso personal o doméstico</field>
+        </record>
+
+        <record id="economic_activity_430" model="elinvoice.economic_activity">
+            <field name="code">47594</field>
+            <field name="name">Venta al por menor de artículos eléctricos y de iluminación</field>
+        </record>
+
+        <record id="economic_activity_431" model="elinvoice.economic_activity">
+            <field name="code">47610</field>
+            <field name="name">Venta al por menor de libros, periódicos y artículos de papelería en comercios especializados</field>
+        </record>
+
+        <record id="economic_activity_432" model="elinvoice.economic_activity">
+            <field name="code">47620</field>
+            <field name="name">Venta al por menor de discos láser, cassettes, cintas de video y otros</field>
+        </record>
+
+        <record id="economic_activity_433" model="elinvoice.economic_activity">
+            <field name="code">47630</field>
+            <field name="name">Venta al por menor de productos y equipos de deporte</field>
+        </record>
+
+        <record id="economic_activity_434" model="elinvoice.economic_activity">
+            <field name="code">47640</field>
+            <field name="name">Venta al por menor de juegos y juguetes  en comercios especializados</field>
+        </record>
+
+        <record id="economic_activity_435" model="elinvoice.economic_activity">
+            <field name="code">47711</field>
+            <field name="name">Venta al por menor de prendas de vestir y accesorios de vestir</field>
+        </record>
+
+        <record id="economic_activity_436" model="elinvoice.economic_activity">
+            <field name="code">47712</field>
+            <field name="name">Venta al por menor de calzado</field>
+        </record>
+
+        <record id="economic_activity_437" model="elinvoice.economic_activity">
+            <field name="code">47713</field>
+            <field name="name">Venta al por menor de artículos de marroquinería y talabartería</field>
+        </record>
+
+        <record id="economic_activity_438" model="elinvoice.economic_activity">
+            <field name="code">47721</field>
+            <field name="name">Venta al por menor de medicamentos farmacéuticos y otros materiales y artículos de uso médico, odontológico y veterinario</field>
+        </record>
+
+        <record id="economic_activity_439" model="elinvoice.economic_activity">
+            <field name="code">47722</field>
+            <field name="name">Venta al por menor de productos cosméticos y de tocador</field>
+        </record>
+
+        <record id="economic_activity_440" model="elinvoice.economic_activity">
+            <field name="code">47731</field>
+            <field name="name">Venta al por menor de productos de joyería, bisutería, óptica, relojería</field>
+        </record>
+
+        <record id="economic_activity_441" model="elinvoice.economic_activity">
+            <field name="code">47732</field>
+            <field name="name">Venta al por menor de plantas, semillas, animales y artículos conexos</field>
+        </record>
+
+        <record id="economic_activity_442" model="elinvoice.economic_activity">
+            <field name="code">47733</field>
+            <field name="name">Venta al por menor de combustibles de uso doméstico</field>
+        </record>
+
+        <record id="economic_activity_443" model="elinvoice.economic_activity">
+            <field name="code">47734</field>
+            <field name="name">Venta al por menor de artesanías, artículos cerámicos y recuerdos en general</field>
+        </record>
+
+        <record id="economic_activity_444" model="elinvoice.economic_activity">
+            <field name="code">47735</field>
+            <field name="name">Venta al por menor de ataúdes, lápidas y cruces, trofeos, artículos religiosos en general</field>
+        </record>
+
+        <record id="economic_activity_445" model="elinvoice.economic_activity">
+            <field name="code">47739</field>
+            <field name="name">Venta al por menor de otros productos  n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_446" model="elinvoice.economic_activity">
+            <field name="code">47741</field>
+            <field name="name">Venta al por menor  de artículos usados</field>
+        </record>
+
+        <record id="economic_activity_447" model="elinvoice.economic_activity">
+            <field name="code">47742</field>
+            <field name="name">Venta al por menor de prendas de vestir, calzado y otros articulos confeccionados usados</field>
+        </record>
+
+        <record id="economic_activity_448" model="elinvoice.economic_activity">
+            <field name="code">47743</field>
+            <field name="name">Venta al por menor de libros, revistas, papel y cartón usados</field>
+        </record>
+
+        <record id="economic_activity_449" model="elinvoice.economic_activity">
+            <field name="code">47749</field>
+            <field name="name">Venta al por menor de productos usados n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_450" model="elinvoice.economic_activity">
+            <field name="code">47811</field>
+            <field name="name">Venta al por menor de frutas, verduras y hortalizas</field>
+        </record>
+
+        <record id="economic_activity_451" model="elinvoice.economic_activity">
+            <field name="code">47812</field>
+            <field name="name">Venta al por menor de carnes, embutidos y productos de granja</field>
+        </record>
+
+        <record id="economic_activity_452" model="elinvoice.economic_activity">
+            <field name="code">47813</field>
+            <field name="name">Venta al por menor de pescado y mariscos</field>
+        </record>
+
+        <record id="economic_activity_453" model="elinvoice.economic_activity">
+            <field name="code">47814</field>
+            <field name="name">Venta al por menor de productos lácteos</field>
+        </record>
+
+        <record id="economic_activity_454" model="elinvoice.economic_activity">
+            <field name="code">47815</field>
+            <field name="name">Venta al por menor de productos de panadería, galletas y similares</field>
+        </record>
+
+        <record id="economic_activity_455" model="elinvoice.economic_activity">
+            <field name="code">47816</field>
+            <field name="name">Venta al por menor de bebidas</field>
+        </record>
+
+        <record id="economic_activity_456" model="elinvoice.economic_activity">
+            <field name="code">47817</field>
+            <field name="name">Venta al por menor de tabaco</field>
+        </record>
+
+        <record id="economic_activity_457" model="elinvoice.economic_activity">
+            <field name="code">47818</field>
+            <field name="name">Venta al por menor en tiendas de mercado y puestos</field>
+        </record>
+
+        <record id="economic_activity_458" model="elinvoice.economic_activity">
+            <field name="code">47819</field>
+            <field name="name">Venta al por menor de alimentos n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_459" model="elinvoice.economic_activity">
+            <field name="code">47821</field>
+            <field name="name">Venta al por menor de hilados, tejidos y productos textiles de mercería en puestos de mercados y ferias</field>
+        </record>
+
+        <record id="economic_activity_460" model="elinvoice.economic_activity">
+            <field name="code">47822</field>
+            <field name="name">Venta al por menor de artículos textiles excepto confecciones para el hogar en puestos de mercados y ferias</field>
+        </record>
+
+        <record id="economic_activity_461" model="elinvoice.economic_activity">
+            <field name="code">47823</field>
+            <field name="name">Venta al por menor de confecciones textiles para el hogar en puestos de mercados y ferias</field>
+        </record>
+
+        <record id="economic_activity_462" model="elinvoice.economic_activity">
+            <field name="code">47824</field>
+            <field name="name">Venta al por menor de prendas de vestir, accesorios de vestir y similares en puestos de mercados y ferias</field>
+        </record>
+
+        <record id="economic_activity_463" model="elinvoice.economic_activity">
+            <field name="code">47825</field>
+            <field name="name">Venta al por menor de ropa usada</field>
+        </record>
+
+        <record id="economic_activity_464" model="elinvoice.economic_activity">
+            <field name="code">47826</field>
+            <field name="name">Venta al por menor de calzado, artículos de marroquinería y talabartería en puestos de mercados y ferias</field>
+        </record>
+
+        <record id="economic_activity_465" model="elinvoice.economic_activity">
+            <field name="code">47827</field>
+            <field name="name">Venta al por menor de artículos de marroquinería y talabartería en puestos de mercados y ferias</field>
+        </record>
+
+        <record id="economic_activity_466" model="elinvoice.economic_activity">
+            <field name="code">47829</field>
+            <field name="name">Venta al por menor de artículos textiles n.c.p. en puestos de mercados y ferias</field>
+        </record>
+
+        <record id="economic_activity_467" model="elinvoice.economic_activity">
+            <field name="code">47891</field>
+            <field name="name">Venta al por menor de animales, flores y productos conexos en puestos de feria y mercados</field>
+        </record>
+
+        <record id="economic_activity_468" model="elinvoice.economic_activity">
+            <field name="code">47892</field>
+            <field name="name">Venta al por menor de productos medicinales, cosméticos, de tocador y de limpieza en puestos de ferias y mercados</field>
+        </record>
+
+        <record id="economic_activity_469" model="elinvoice.economic_activity">
+            <field name="code">47893</field>
+            <field name="name">Venta al por menor de artículos de bazar en puestos de ferias y mercados</field>
+        </record>
+
+        <record id="economic_activity_470" model="elinvoice.economic_activity">
+            <field name="code">47894</field>
+            <field name="name">Venta al por menor de artículos de papel, envases, libros, revistas y conexos en puestos de feria y mercados</field>
+        </record>
+
+        <record id="economic_activity_471" model="elinvoice.economic_activity">
+            <field name="code">47895</field>
+            <field name="name">Venta al por menor de materiales de construcción, electrodomésticos, accesorios para autos y similares en puestos de feria y mercados</field>
+        </record>
+
+        <record id="economic_activity_472" model="elinvoice.economic_activity">
+            <field name="code">47896</field>
+            <field name="name">Venta al por menor de equipos accesorios para las comunicaciones en puestos de feria y mercados</field>
+        </record>
+
+        <record id="economic_activity_473" model="elinvoice.economic_activity">
+            <field name="code">47899</field>
+            <field name="name">Venta al por menor en puestos de ferias y mercados n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_474" model="elinvoice.economic_activity">
+            <field name="code">47910</field>
+            <field name="name">Venta al por menor por correo o Internet</field>
+        </record>
+
+        <record id="economic_activity_475" model="elinvoice.economic_activity">
+            <field name="code">47990</field>
+            <field name="name">Otros tipos de venta al por menor no realizada, en almacenes, puestos de venta o mercado</field>
+        </record>
+
+        <record id="economic_activity_476" model="elinvoice.economic_activity">
+            <field name="code">49110</field>
+            <field name="name">Transporte interurbano de pasajeros  por ferrocarril</field>
+        </record>
+
+        <record id="economic_activity_477" model="elinvoice.economic_activity">
+            <field name="code">49120</field>
+            <field name="name">Transporte de carga por ferrocarril</field>
+        </record>
+
+        <record id="economic_activity_478" model="elinvoice.economic_activity">
+            <field name="code">49211</field>
+            <field name="name">Transporte de pasajeros urbano e interurbano mediante buses, microbuses y otros</field>
+        </record>
+
+        <record id="economic_activity_479" model="elinvoice.economic_activity">
+            <field name="code">49212</field>
+            <field name="name">Transporte de pasajeros interdepartamental mediante buses y microbuses</field>
+        </record>
+
+        <record id="economic_activity_480" model="elinvoice.economic_activity">
+            <field name="code">49221</field>
+            <field name="name">Transporte internacional de pasajeros</field>
+        </record>
+
+        <record id="economic_activity_481" model="elinvoice.economic_activity">
+            <field name="code">49222</field>
+            <field name="name">Transporte de pasajeros mediante taxis y autos con chofer</field>
+        </record>
+
+        <record id="economic_activity_482" model="elinvoice.economic_activity">
+            <field name="code">49229</field>
+            <field name="name">Transporte de pasajeros por vía terrestre n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_483" model="elinvoice.economic_activity">
+            <field name="code">49231</field>
+            <field name="name">Transporte de carga urbano</field>
+        </record>
+
+        <record id="economic_activity_484" model="elinvoice.economic_activity">
+            <field name="code">49232</field>
+            <field name="name">Transporte nacional de carga</field>
+        </record>
+
+        <record id="economic_activity_485" model="elinvoice.economic_activity">
+            <field name="code">49233</field>
+            <field name="name">Transporte de carga  internacional</field>
+        </record>
+
+        <record id="economic_activity_486" model="elinvoice.economic_activity">
+            <field name="code">49234</field>
+            <field name="name">Servicios de  mudanza</field>
+        </record>
+
+        <record id="economic_activity_487" model="elinvoice.economic_activity">
+            <field name="code">49235</field>
+            <field name="name">Alquiler de vehículos de carga con conductor</field>
+        </record>
+
+        <record id="economic_activity_488" model="elinvoice.economic_activity">
+            <field name="code">49300</field>
+            <field name="name">Transporte por oleoducto o gasoducto</field>
+        </record>
+
+        <record id="economic_activity_489" model="elinvoice.economic_activity">
+            <field name="code">50110</field>
+            <field name="name">Transporte de pasajeros marítimo y de cabotaje</field>
+        </record>
+
+        <record id="economic_activity_490" model="elinvoice.economic_activity">
+            <field name="code">50120</field>
+            <field name="name">Transporte de carga marítimo y de cabotaje</field>
+        </record>
+
+        <record id="economic_activity_491" model="elinvoice.economic_activity">
+            <field name="code">50211</field>
+            <field name="name">Transporte de pasajeros por vías de navegación interiores</field>
+        </record>
+
+        <record id="economic_activity_492" model="elinvoice.economic_activity">
+            <field name="code">50212</field>
+            <field name="name">Alquiler de equipo de transporte de pasajeros por vías de navegación interior con conductor</field>
+        </record>
+
+        <record id="economic_activity_493" model="elinvoice.economic_activity">
+            <field name="code">50220</field>
+            <field name="name">Transporte de carga por vías de navegación interiores</field>
+        </record>
+
+        <record id="economic_activity_494" model="elinvoice.economic_activity">
+            <field name="code">51100</field>
+            <field name="name">Transporte aéreo de pasajeros</field>
+        </record>
+
+        <record id="economic_activity_495" model="elinvoice.economic_activity">
+            <field name="code">51201</field>
+            <field name="name">Transporte de carga por vía aérea</field>
+        </record>
+
+        <record id="economic_activity_496" model="elinvoice.economic_activity">
+            <field name="code">51202</field>
+            <field name="name">Alquiler de equipo de aerotransporte  con operadores para el propósito de transportar carga</field>
+        </record>
+
+        <record id="economic_activity_497" model="elinvoice.economic_activity">
+            <field name="code">52101</field>
+            <field name="name">Alquiler de instalaciones de almacenamiento en zonas francas</field>
+        </record>
+
+        <record id="economic_activity_498" model="elinvoice.economic_activity">
+            <field name="code">52102</field>
+            <field name="name">Alquiler de silos para conservación y almacenamiento de granos</field>
+        </record>
+
+        <record id="economic_activity_499" model="elinvoice.economic_activity">
+            <field name="code">52103</field>
+            <field name="name">Alquiler de instalaciones con refrigeración para almacenamiento y conservación de alimentos y otros productos</field>
+        </record>
+
+        <record id="economic_activity_500" model="elinvoice.economic_activity">
+            <field name="code">52109</field>
+            <field name="name">Alquiler de bodegas para almacenamiento y depósito n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_501" model="elinvoice.economic_activity">
+            <field name="code">52211</field>
+            <field name="name">Servicio de garaje y estacionamiento</field>
+        </record>
+
+        <record id="economic_activity_502" model="elinvoice.economic_activity">
+            <field name="code">52212</field>
+            <field name="name">Servicios de terminales para el transporte por vía terrestre</field>
+        </record>
+
+        <record id="economic_activity_503" model="elinvoice.economic_activity">
+            <field name="code">52219</field>
+            <field name="name">Servicios para el transporte por vía terrestre n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_504" model="elinvoice.economic_activity">
+            <field name="code">52220</field>
+            <field name="name">Servicios para el transporte acuático</field>
+        </record>
+
+        <record id="economic_activity_505" model="elinvoice.economic_activity">
+            <field name="code">52230</field>
+            <field name="name">Servicios para el transporte aéreo</field>
+        </record>
+
+        <record id="economic_activity_506" model="elinvoice.economic_activity">
+            <field name="code">52240</field>
+            <field name="name">Manipulación de carga</field>
+        </record>
+
+        <record id="economic_activity_507" model="elinvoice.economic_activity">
+            <field name="code">52290</field>
+            <field name="name">Servicios para el transporte n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_508" model="elinvoice.economic_activity">
+            <field name="code">53100</field>
+            <field name="name">Servicios de  correo nacional</field>
+        </record>
+
+        <record id="economic_activity_509" model="elinvoice.economic_activity">
+            <field name="code">53200</field>
+            <field name="name">Actividades de correo distintas a las actividades postales nacionales</field>
+        </record>
+
+        <record id="economic_activity_510" model="elinvoice.economic_activity">
+            <field name="code">55100</field>
+            <field name="name">Actividades de alojamiento para estancias cortas</field>
+        </record>
+
+        <record id="economic_activity_511" model="elinvoice.economic_activity">
+            <field name="code">55200</field>
+            <field name="name">Actividades de campamentos, parques de vehículos de recreo y parques de caravanas.</field>
+        </record>
+
+        <record id="economic_activity_512" model="elinvoice.economic_activity">
+            <field name="code">55900</field>
+            <field name="name">Alojamiento n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_513" model="elinvoice.economic_activity">
+            <field name="code">56210</field>
+            <field name="name">Preparación de comida para eventos especiales</field>
+        </record>
+
+        <record id="economic_activity_514" model="elinvoice.economic_activity">
+            <field name="code">56291</field>
+            <field name="name">Servicios de provisión de comidas por contrato</field>
+        </record>
+
+        <record id="economic_activity_515" model="elinvoice.economic_activity">
+            <field name="code">56292</field>
+            <field name="name">Servicios de concesión de cafetines y chalet en empresas e instituciones</field>
+        </record>
+
+        <record id="economic_activity_516" model="elinvoice.economic_activity">
+            <field name="code">56299</field>
+            <field name="name">Servicios de preparación de comidas n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_517" model="elinvoice.economic_activity">
+            <field name="code">56301</field>
+            <field name="name">Servicio de expendio de bebidas alcohólicas</field>
+        </record>
+
+        <record id="economic_activity_518" model="elinvoice.economic_activity">
+            <field name="code">56302</field>
+            <field name="name">Servicio de expendio de bebidas no alcohólicas</field>
+        </record>
+
+        <record id="economic_activity_519" model="elinvoice.economic_activity">
+            <field name="code">58110</field>
+            <field name="name">Edición  de libros, folletos, partituras y otras ediciones distintas a estas</field>
+        </record>
+
+        <record id="economic_activity_520" model="elinvoice.economic_activity">
+            <field name="code">58120</field>
+            <field name="name">Edición de directorios y listas de correos</field>
+        </record>
+
+        <record id="economic_activity_521" model="elinvoice.economic_activity">
+            <field name="code">58130</field>
+            <field name="name">Edición de periódicos, revistas y otras publicaciones periódicas</field>
+        </record>
+
+        <record id="economic_activity_522" model="elinvoice.economic_activity">
+            <field name="code">58190</field>
+            <field name="name">Otras actividades de edición</field>
+        </record>
+
+        <record id="economic_activity_523" model="elinvoice.economic_activity">
+            <field name="code">58200</field>
+            <field name="name">Edición de programas informáticos (software)</field>
+        </record>
+
+        <record id="economic_activity_524" model="elinvoice.economic_activity">
+            <field name="code">59110</field>
+            <field name="name">Actividades de producción cinematográfica</field>
+        </record>
+
+        <record id="economic_activity_525" model="elinvoice.economic_activity">
+            <field name="code">59120</field>
+            <field name="name">Actividades de post producción de películas, videos y programas  de televisión</field>
+        </record>
+
+        <record id="economic_activity_526" model="elinvoice.economic_activity">
+            <field name="code">59130</field>
+            <field name="name">Actividades de distribución de películas cinematográficas, videos y programas de televisión</field>
+        </record>
+
+        <record id="economic_activity_527" model="elinvoice.economic_activity">
+            <field name="code">59140</field>
+            <field name="name">Actividades de exhibición de películas cinematográficas y cintas de vídeo</field>
+        </record>
+
+        <record id="economic_activity_528" model="elinvoice.economic_activity">
+            <field name="code">59200</field>
+            <field name="name">Actividades de edición y grabación de música</field>
+        </record>
+
+        <record id="economic_activity_529" model="elinvoice.economic_activity">
+            <field name="code">60100</field>
+            <field name="name">Servicios de difusiones de radio</field>
+        </record>
+
+        <record id="economic_activity_530" model="elinvoice.economic_activity">
+            <field name="code">60201</field>
+            <field name="name">Actividades de programación y difusión de televisión abierta</field>
+        </record>
+
+        <record id="economic_activity_531" model="elinvoice.economic_activity">
+            <field name="code">60202</field>
+            <field name="name">Actividades de suscripción y difusión de televisión por cable y/o suscripción</field>
+        </record>
+
+        <record id="economic_activity_532" model="elinvoice.economic_activity">
+            <field name="code">61101</field>
+            <field name="name">Servicio de telefonía fija</field>
+        </record>
+
+        <record id="economic_activity_533" model="elinvoice.economic_activity">
+            <field name="code">61102</field>
+            <field name="name">SERVICIO DE INTERNET</field>
+        </record>
+
+        <record id="economic_activity_534" model="elinvoice.economic_activity">
+            <field name="code">61109</field>
+            <field name="name">Servicio de Internet n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_535" model="elinvoice.economic_activity">
+            <field name="code">61201</field>
+            <field name="name">Servicios de telefonía celular</field>
+        </record>
+
+        <record id="economic_activity_536" model="elinvoice.economic_activity">
+            <field name="code">61202</field>
+            <field name="name">Servicios de Internet inalámbrico</field>
+        </record>
+
+        <record id="economic_activity_537" model="elinvoice.economic_activity">
+            <field name="code">61209</field>
+            <field name="name">Servicios de telecomunicaciones  inalámbrico n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_538" model="elinvoice.economic_activity">
+            <field name="code">61301</field>
+            <field name="name">Telecomunicaciones  satelitales</field>
+        </record>
+
+        <record id="economic_activity_539" model="elinvoice.economic_activity">
+            <field name="code">61309</field>
+            <field name="name">Comunicación vía satélite n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_540" model="elinvoice.economic_activity">
+            <field name="code">61900</field>
+            <field name="name">Actividades de telecomunicación n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_541" model="elinvoice.economic_activity">
+            <field name="code">62010</field>
+            <field name="name">Programación Informática</field>
+        </record>
+
+        <record id="economic_activity_542" model="elinvoice.economic_activity">
+            <field name="code">62020</field>
+            <field name="name">Consultorías y gestión de servicios informáticos</field>
+        </record>
+
+        <record id="economic_activity_543" model="elinvoice.economic_activity">
+            <field name="code">62090</field>
+            <field name="name">Otras actividades  de tecnología  de información y servicios  de computadora</field>
+        </record>
+
+        <record id="economic_activity_544" model="elinvoice.economic_activity">
+            <field name="code">63110</field>
+            <field name="name">Procesamiento de datos, hospedajes y actividades relacionadas</field>
+        </record>
+
+        <record id="economic_activity_545" model="elinvoice.economic_activity">
+            <field name="code">63120</field>
+            <field name="name">Portales WEB</field>
+        </record>
+
+        <record id="economic_activity_546" model="elinvoice.economic_activity">
+            <field name="code">63910</field>
+            <field name="name">Servicios de agencias de noticias</field>
+        </record>
+
+        <record id="economic_activity_547" model="elinvoice.economic_activity">
+            <field name="code">63990</field>
+            <field name="name">Otros servicios de  información  n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_548" model="elinvoice.economic_activity">
+            <field name="code">64110</field>
+            <field name="name">Servicios provistos por el Banco Central  de El salvador</field>
+        </record>
+
+        <record id="economic_activity_549" model="elinvoice.economic_activity">
+            <field name="code">64190</field>
+            <field name="name">Servicio de bancos comerciales e intermediarios monetarios autorizados a recibir depósitos</field>
+        </record>
+
+        <record id="economic_activity_550" model="elinvoice.economic_activity">
+            <field name="code">64200</field>
+            <field name="name">Actividades de sociedades de cartera</field>
+        </record>
+
+        <record id="economic_activity_551" model="elinvoice.economic_activity">
+            <field name="code">64300</field>
+            <field name="name">Fideicomisos, fondos y otras fuentes de financiamiento</field>
+        </record>
+
+        <record id="economic_activity_552" model="elinvoice.economic_activity">
+            <field name="code">64910</field>
+            <field name="name">Arrendamiento financieros</field>
+        </record>
+
+        <record id="economic_activity_553" model="elinvoice.economic_activity">
+            <field name="code">64920</field>
+            <field name="name">Tipos de crédito n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_554" model="elinvoice.economic_activity">
+            <field name="code">64990</field>
+            <field name="name">Actividades de servicios financieros, excepto la financiación de planes de seguros y de pensiones n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_555" model="elinvoice.economic_activity">
+            <field name="code">65110</field>
+            <field name="name">Planes de seguros de vida</field>
+        </record>
+
+        <record id="economic_activity_556" model="elinvoice.economic_activity">
+            <field name="code">65120</field>
+            <field name="name">Planes de seguro excepto de vida</field>
+        </record>
+
+        <record id="economic_activity_557" model="elinvoice.economic_activity">
+            <field name="code">65200</field>
+            <field name="name">Planes se seguro</field>
+        </record>
+
+        <record id="economic_activity_558" model="elinvoice.economic_activity">
+            <field name="code">65300</field>
+            <field name="name">Planes de pensiones</field>
+        </record>
+
+        <record id="economic_activity_559" model="elinvoice.economic_activity">
+            <field name="code">66110</field>
+            <field name="name">Administración de mercados financieros</field>
+        </record>
+
+        <record id="economic_activity_560" model="elinvoice.economic_activity">
+            <field name="code">66120</field>
+            <field name="name">Actividades bursátiles</field>
+        </record>
+
+        <record id="economic_activity_561" model="elinvoice.economic_activity">
+            <field name="code">66190</field>
+            <field name="name">Actividades auxiliares  de la intermediación financiera ncp</field>
+        </record>
+
+        <record id="economic_activity_562" model="elinvoice.economic_activity">
+            <field name="code">66210</field>
+            <field name="name">Evaluación de riesgos y daños</field>
+        </record>
+
+        <record id="economic_activity_563" model="elinvoice.economic_activity">
+            <field name="code">66220</field>
+            <field name="name">Actividades  de agentes  y corredores de seguros</field>
+        </record>
+
+        <record id="economic_activity_564" model="elinvoice.economic_activity">
+            <field name="code">66290</field>
+            <field name="name">Otras Actividades auxiliares  de seguros y  fondos de pensiones</field>
+        </record>
+
+        <record id="economic_activity_565" model="elinvoice.economic_activity">
+            <field name="code">66300</field>
+            <field name="name">Actividades de administración de fondos</field>
+        </record>
+
+        <record id="economic_activity_566" model="elinvoice.economic_activity">
+            <field name="code">68101</field>
+            <field name="name">Servicio de alquiler y venta de lotes en cementerios</field>
+        </record>
+
+        <record id="economic_activity_567" model="elinvoice.economic_activity">
+            <field name="code">68109</field>
+            <field name="name">Actividades inmobiliarias realizadas con bienes propios o arrendados n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_568" model="elinvoice.economic_activity">
+            <field name="code">68200</field>
+            <field name="name">Actividades inmobiliarias realizadas a cambio de una retribución o por contrata</field>
+        </record>
+
+        <record id="economic_activity_569" model="elinvoice.economic_activity">
+            <field name="code">69100</field>
+            <field name="name">Actividades jurídicas</field>
+        </record>
+
+        <record id="economic_activity_570" model="elinvoice.economic_activity">
+            <field name="code">69200</field>
+            <field name="name">Actividades de contabilidad, teneduría de libros y auditoria; asesoramiento en materia de impuestos</field>
+        </record>
+
+        <record id="economic_activity_571" model="elinvoice.economic_activity">
+            <field name="code">70100</field>
+            <field name="name">Actividades de oficinas centrales de sociedades de cartera</field>
+        </record>
+
+        <record id="economic_activity_572" model="elinvoice.economic_activity">
+            <field name="code">70200</field>
+            <field name="name">Actividades de consultoría en gestión empresarial</field>
+        </record>
+
+        <record id="economic_activity_573" model="elinvoice.economic_activity">
+            <field name="code">71101</field>
+            <field name="name">Servicios de arquitectura y planificación urbana y servicios conexos</field>
+        </record>
+
+        <record id="economic_activity_574" model="elinvoice.economic_activity">
+            <field name="code">71102</field>
+            <field name="name">Servicios de ingeniería</field>
+        </record>
+
+        <record id="economic_activity_575" model="elinvoice.economic_activity">
+            <field name="code">71103</field>
+            <field name="name">Servicios de agrimensura, topografía, cartografía, prospección y geofísica y servicios conexos</field>
+        </record>
+
+        <record id="economic_activity_576" model="elinvoice.economic_activity">
+            <field name="code">71200</field>
+            <field name="name">Ensayos y análisis técnicos</field>
+        </record>
+
+        <record id="economic_activity_577" model="elinvoice.economic_activity">
+            <field name="code">72100</field>
+            <field name="name">Investigaciones y desarrollo experimental en el campo de las ciencias naturales y la ingeniería</field>
+        </record>
+
+        <record id="economic_activity_578" model="elinvoice.economic_activity">
+            <field name="code">72200</field>
+            <field name="name">Investigaciones y desarrollo experimental en el campo de las ciencias sociales y las humanidades  científica y desarrollo</field>
+        </record>
+
+        <record id="economic_activity_579" model="elinvoice.economic_activity">
+            <field name="code">73100</field>
+            <field name="name">Publicidad</field>
+        </record>
+
+        <record id="economic_activity_580" model="elinvoice.economic_activity">
+            <field name="code">73200</field>
+            <field name="name">Investigación de mercados y realización de encuestas de opinión pública</field>
+        </record>
+
+        <record id="economic_activity_581" model="elinvoice.economic_activity">
+            <field name="code">74100</field>
+            <field name="name">Actividades de diseño especializado</field>
+        </record>
+
+        <record id="economic_activity_582" model="elinvoice.economic_activity">
+            <field name="code">74200</field>
+            <field name="name">Actividades de fotografía</field>
+        </record>
+
+        <record id="economic_activity_583" model="elinvoice.economic_activity">
+            <field name="code">74900</field>
+            <field name="name">Servicios profesionales y científicos n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_584" model="elinvoice.economic_activity">
+            <field name="code">75000</field>
+            <field name="name">Actividades veterinarias</field>
+        </record>
+
+        <record id="economic_activity_585" model="elinvoice.economic_activity">
+            <field name="code">77101</field>
+            <field name="name">Alquiler de equipo de transporte terrestre</field>
+        </record>
+
+        <record id="economic_activity_586" model="elinvoice.economic_activity">
+            <field name="code">77102</field>
+            <field name="name">Alquiler de equipo de transporte acuático</field>
+        </record>
+
+        <record id="economic_activity_587" model="elinvoice.economic_activity">
+            <field name="code">77103</field>
+            <field name="name">Alquiler de equipo de transporte  por vía aérea</field>
+        </record>
+
+        <record id="economic_activity_588" model="elinvoice.economic_activity">
+            <field name="code">77210</field>
+            <field name="name">Alquiler y arrendamiento de equipo de recreo y deportivo</field>
+        </record>
+
+        <record id="economic_activity_589" model="elinvoice.economic_activity">
+            <field name="code">77220</field>
+            <field name="name">Alquiler de cintas de video y discos</field>
+        </record>
+
+        <record id="economic_activity_590" model="elinvoice.economic_activity">
+            <field name="code">77290</field>
+            <field name="name">Alquiler de otros efectos personales y enseres domésticos</field>
+        </record>
+
+        <record id="economic_activity_591" model="elinvoice.economic_activity">
+            <field name="code">77300</field>
+            <field name="name">Alquiler de maquinaria y equipo</field>
+        </record>
+
+        <record id="economic_activity_592" model="elinvoice.economic_activity">
+            <field name="code">77400</field>
+            <field name="name">Arrendamiento de productos de propiedad intelectual</field>
+        </record>
+
+        <record id="economic_activity_593" model="elinvoice.economic_activity">
+            <field name="code">78100</field>
+            <field name="name">Obtención y dotación de personal</field>
+        </record>
+
+        <record id="economic_activity_594" model="elinvoice.economic_activity">
+            <field name="code">78200</field>
+            <field name="name">Actividades de las agencias  de trabajo temporal</field>
+        </record>
+
+        <record id="economic_activity_595" model="elinvoice.economic_activity">
+            <field name="code">78300</field>
+            <field name="name">Dotación de recursos humanos y gestión; gestión de las funciones de recursos humanos</field>
+        </record>
+
+        <record id="economic_activity_596" model="elinvoice.economic_activity">
+            <field name="code">79110</field>
+            <field name="name">Actividades de agencias de viajes y organizadores de viajes ; actividades de asistencia a turistas</field>
+        </record>
+
+        <record id="economic_activity_597" model="elinvoice.economic_activity">
+            <field name="code">79120</field>
+            <field name="name">Actividades de los operadores turísticos</field>
+        </record>
+
+        <record id="economic_activity_598" model="elinvoice.economic_activity">
+            <field name="code">79900</field>
+            <field name="name">Otros servicios de reservas  y actividades relacionadas</field>
+        </record>
+
+        <record id="economic_activity_599" model="elinvoice.economic_activity">
+            <field name="code">80100</field>
+            <field name="name">Servicios de seguridad privados</field>
+        </record>
+
+        <record id="economic_activity_600" model="elinvoice.economic_activity">
+            <field name="code">80201</field>
+            <field name="name">Actividades de servicios de sistemas de seguridad</field>
+        </record>
+
+        <record id="economic_activity_601" model="elinvoice.economic_activity">
+            <field name="code">80202</field>
+            <field name="name">Actividades para la prestación de sistemas de seguridad</field>
+        </record>
+
+        <record id="economic_activity_602" model="elinvoice.economic_activity">
+            <field name="code">80300</field>
+            <field name="name">Actividades de investigación</field>
+        </record>
+
+        <record id="economic_activity_603" model="elinvoice.economic_activity">
+            <field name="code">81100</field>
+            <field name="name">Actividades combinadas de mantenimiento de edificios  e instalaciones</field>
+        </record>
+
+        <record id="economic_activity_604" model="elinvoice.economic_activity">
+            <field name="code">81210</field>
+            <field name="name">Limpieza general de edificios</field>
+        </record>
+
+        <record id="economic_activity_605" model="elinvoice.economic_activity">
+            <field name="code">81290</field>
+            <field name="name">Otras actividades de limpieza de edificios e instalaciones</field>
+        </record>
+
+        <record id="economic_activity_606" model="elinvoice.economic_activity">
+            <field name="code">81300</field>
+            <field name="name">Servicio de jardinería</field>
+        </record>
+
+        <record id="economic_activity_607" model="elinvoice.economic_activity">
+            <field name="code">82110</field>
+            <field name="name">Servicios administrativos  de oficinas</field>
+        </record>
+
+        <record id="economic_activity_608" model="elinvoice.economic_activity">
+            <field name="code">82190</field>
+            <field name="name">Servicio de fotocopiado y similares, excepto en imprentas</field>
+        </record>
+
+        <record id="economic_activity_609" model="elinvoice.economic_activity">
+            <field name="code">82200</field>
+            <field name="name">Actividades de las centrales de llamadas (call center)</field>
+        </record>
+
+        <record id="economic_activity_610" model="elinvoice.economic_activity">
+            <field name="code">82300</field>
+            <field name="name">Organización de convenciones y ferias de negocios</field>
+        </record>
+
+        <record id="economic_activity_611" model="elinvoice.economic_activity">
+            <field name="code">82910</field>
+            <field name="name">Actividades de agencias de cobro y oficinas de crédito</field>
+        </record>
+
+        <record id="economic_activity_612" model="elinvoice.economic_activity">
+            <field name="code">82921</field>
+            <field name="name">Servicios de envase y empaque de productos alimenticios</field>
+        </record>
+
+        <record id="economic_activity_613" model="elinvoice.economic_activity">
+            <field name="code">82922</field>
+            <field name="name">Servicios de envase y empaque de productos medicinales</field>
+        </record>
+
+        <record id="economic_activity_614" model="elinvoice.economic_activity">
+            <field name="code">82929</field>
+            <field name="name">Servicio de envase y empaque n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_615" model="elinvoice.economic_activity">
+            <field name="code">82990</field>
+            <field name="name">Actividades de apoyo empresariales n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_616" model="elinvoice.economic_activity">
+            <field name="code">84110</field>
+            <field name="name">Actividades de la administración pública en general</field>
+        </record>
+
+        <record id="economic_activity_617" model="elinvoice.economic_activity">
+            <field name="code">84120</field>
+            <field name="name">Regulación de las actividades de prestación de servicios sanitarios, educativos, culturales y otros servicios sociales, excepto seguridad social</field>
+        </record>
+
+        <record id="economic_activity_618" model="elinvoice.economic_activity">
+            <field name="code">84130</field>
+            <field name="name">Regulación y facilitación de la actividad económica</field>
+        </record>
+
+        <record id="economic_activity_619" model="elinvoice.economic_activity">
+            <field name="code">84210</field>
+            <field name="name">Relaciones exteriores</field>
+        </record>
+
+        <record id="economic_activity_620" model="elinvoice.economic_activity">
+            <field name="code">84220</field>
+            <field name="name">Actividades de defensa</field>
+        </record>
+
+        <record id="economic_activity_621" model="elinvoice.economic_activity">
+            <field name="code">84230</field>
+            <field name="name">Actividades de mantenimiento del orden público y de seguridad</field>
+        </record>
+
+        <record id="economic_activity_622" model="elinvoice.economic_activity">
+            <field name="code">84300</field>
+            <field name="name">Actividades de planes de seguridad social de afiliación obligatoria</field>
+        </record>
+
+        <record id="economic_activity_623" model="elinvoice.economic_activity">
+            <field name="code">85101</field>
+            <field name="name">Guardería educativa</field>
+        </record>
+
+        <record id="economic_activity_624" model="elinvoice.economic_activity">
+            <field name="code">85102</field>
+            <field name="name">Enseñanza preescolar o parvularia</field>
+        </record>
+
+        <record id="economic_activity_625" model="elinvoice.economic_activity">
+            <field name="code">85103</field>
+            <field name="name">Enseñanza primaria</field>
+        </record>
+
+        <record id="economic_activity_626" model="elinvoice.economic_activity">
+            <field name="code">85104</field>
+            <field name="name">Servicio de educación preescolar y primaria integrada</field>
+        </record>
+
+        <record id="economic_activity_627" model="elinvoice.economic_activity">
+            <field name="code">85211</field>
+            <field name="name">Enseñanza secundaria tercer ciclo (7°, 8° y 9° )</field>
+        </record>
+
+        <record id="economic_activity_628" model="elinvoice.economic_activity">
+            <field name="code">85212</field>
+            <field name="name">Enseñanza secundaria  de formación general  bachillerato</field>
+        </record>
+
+        <record id="economic_activity_629" model="elinvoice.economic_activity">
+            <field name="code">85221</field>
+            <field name="name">Enseñanza secundaria de formación técnica y profesional</field>
+        </record>
+
+        <record id="economic_activity_630" model="elinvoice.economic_activity">
+            <field name="code">85222</field>
+            <field name="name">Enseñanza secundaria de formación técnica y profesional integrada con enseñanza primaria</field>
+        </record>
+
+        <record id="economic_activity_631" model="elinvoice.economic_activity">
+            <field name="code">85301</field>
+            <field name="name">Enseñanza superior universitaria</field>
+        </record>
+
+        <record id="economic_activity_632" model="elinvoice.economic_activity">
+            <field name="code">85302</field>
+            <field name="name">Enseñanza superior no universitaria</field>
+        </record>
+
+        <record id="economic_activity_633" model="elinvoice.economic_activity">
+            <field name="code">85303</field>
+            <field name="name">Enseñanza superior integrada a educación secundaria y/o primaria</field>
+        </record>
+
+        <record id="economic_activity_634" model="elinvoice.economic_activity">
+            <field name="code">85410</field>
+            <field name="name">Educación deportiva y recreativa</field>
+        </record>
+
+        <record id="economic_activity_635" model="elinvoice.economic_activity">
+            <field name="code">85420</field>
+            <field name="name">Educación cultural</field>
+        </record>
+
+        <record id="economic_activity_636" model="elinvoice.economic_activity">
+            <field name="code">85490</field>
+            <field name="name">Otros tipos de enseñanza n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_637" model="elinvoice.economic_activity">
+            <field name="code">85500</field>
+            <field name="name">Servicios de apoyo a la enseñanza</field>
+        </record>
+
+        <record id="economic_activity_638" model="elinvoice.economic_activity">
+            <field name="code">86100</field>
+            <field name="name">Actividades de hospitales</field>
+        </record>
+
+        <record id="economic_activity_639" model="elinvoice.economic_activity">
+            <field name="code">86201</field>
+            <field name="name">Clínicas médicas</field>
+        </record>
+
+        <record id="economic_activity_640" model="elinvoice.economic_activity">
+            <field name="code">86202</field>
+            <field name="name">Servicios de Odontología</field>
+        </record>
+
+        <record id="economic_activity_641" model="elinvoice.economic_activity">
+            <field name="code">86901</field>
+            <field name="name">Servicios de análisis y estudios de diagnóstico</field>
+        </record>
+
+        <record id="economic_activity_642" model="elinvoice.economic_activity">
+            <field name="code">86902</field>
+            <field name="name">Actividades de atención de la salud humana</field>
+        </record>
+
+        <record id="economic_activity_643" model="elinvoice.economic_activity">
+            <field name="code">86909</field>
+            <field name="name">Otros Servicio relacionados con la salud n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_644" model="elinvoice.economic_activity">
+            <field name="code">87100</field>
+            <field name="name">Residencias de ancianos con atención de enfermería</field>
+        </record>
+
+        <record id="economic_activity_645" model="elinvoice.economic_activity">
+            <field name="code">87200</field>
+            <field name="name">Instituciones dedicadas al tratamiento del retraso mental, problemas de salud mental y el uso indebido de sustancias nocivas</field>
+        </record>
+
+        <record id="economic_activity_646" model="elinvoice.economic_activity">
+            <field name="code">87300</field>
+            <field name="name">Instituciones dedicadas al cuidado de ancianos y discapacitados</field>
+        </record>
+
+        <record id="economic_activity_647" model="elinvoice.economic_activity">
+            <field name="code">87900</field>
+            <field name="name">Actividades  de asistencia a niños y jóvenes</field>
+        </record>
+
+        <record id="economic_activity_648" model="elinvoice.economic_activity">
+            <field name="code">88100</field>
+            <field name="name">Actividades  de asistencia sociales sin alojamiento para ancianos y discapacitados</field>
+        </record>
+
+        <record id="economic_activity_649" model="elinvoice.economic_activity">
+            <field name="code">88900</field>
+            <field name="name">Servicios sociales sin alojamiento n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_650" model="elinvoice.economic_activity">
+            <field name="code">90000</field>
+            <field name="name">Actividades creativas artísticas y de esparcimiento</field>
+        </record>
+
+        <record id="economic_activity_651" model="elinvoice.economic_activity">
+            <field name="code">91010</field>
+            <field name="name">Actividades de bibliotecas y archivos</field>
+        </record>
+
+        <record id="economic_activity_652" model="elinvoice.economic_activity">
+            <field name="code">91020</field>
+            <field name="name">Actividades de museos y preservación de lugares y edificios históricos</field>
+        </record>
+
+        <record id="economic_activity_653" model="elinvoice.economic_activity">
+            <field name="code">91030</field>
+            <field name="name">Actividades de jardines botánicos, zoológicos y de reservas  naturales</field>
+        </record>
+
+        <record id="economic_activity_654" model="elinvoice.economic_activity">
+            <field name="code">92000</field>
+            <field name="name">Actividades de juegos y apuestas</field>
+        </record>
+
+        <record id="economic_activity_655" model="elinvoice.economic_activity">
+            <field name="code">93110</field>
+            <field name="name">Gestión de instalaciones deportivas</field>
+        </record>
+
+        <record id="economic_activity_656" model="elinvoice.economic_activity">
+            <field name="code">93120</field>
+            <field name="name">Actividades de clubes deportivos</field>
+        </record>
+
+        <record id="economic_activity_657" model="elinvoice.economic_activity">
+            <field name="code">93190</field>
+            <field name="name">Otras Actividades deportivas</field>
+        </record>
+
+        <record id="economic_activity_658" model="elinvoice.economic_activity">
+            <field name="code">93210</field>
+            <field name="name">Actividades de parques de atracciones y parques temáticos</field>
+        </record>
+
+        <record id="economic_activity_659" model="elinvoice.economic_activity">
+            <field name="code">93291</field>
+            <field name="name">Discotecas y salas de baile</field>
+        </record>
+
+        <record id="economic_activity_660" model="elinvoice.economic_activity">
+            <field name="code">93299</field>
+            <field name="name">Servicios sociales sin alojamiento n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_661" model="elinvoice.economic_activity">
+            <field name="code">94110</field>
+            <field name="name">Actividades de organizaciones empresariales y de empleadores</field>
+        </record>
+
+        <record id="economic_activity_662" model="elinvoice.economic_activity">
+            <field name="code">94120</field>
+            <field name="name">Actividades de organizaciones profesionales</field>
+        </record>
+
+        <record id="economic_activity_663" model="elinvoice.economic_activity">
+            <field name="code">94200</field>
+            <field name="name">Actividades de sindicatos</field>
+        </record>
+
+        <record id="economic_activity_664" model="elinvoice.economic_activity">
+            <field name="code">94910</field>
+            <field name="name">Actividades de organizaciones religiosas</field>
+        </record>
+
+        <record id="economic_activity_665" model="elinvoice.economic_activity">
+            <field name="code">94920</field>
+            <field name="name">Actividades de organizaciones políticas</field>
+        </record>
+
+        <record id="economic_activity_666" model="elinvoice.economic_activity">
+            <field name="code">94990</field>
+            <field name="name">Actividades de asociaciones n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_667" model="elinvoice.economic_activity">
+            <field name="code">95110</field>
+            <field name="name">Reparación de computadoras y equipo periférico</field>
+        </record>
+
+        <record id="economic_activity_668" model="elinvoice.economic_activity">
+            <field name="code">95120</field>
+            <field name="name">Reparación de equipo de comunicación</field>
+        </record>
+
+        <record id="economic_activity_669" model="elinvoice.economic_activity">
+            <field name="code">95210</field>
+            <field name="name">Reparación de aparatos electrónicos de consumo</field>
+        </record>
+
+        <record id="economic_activity_670" model="elinvoice.economic_activity">
+            <field name="code">95220</field>
+            <field name="name">Reparación de aparatos doméstico y equipo de hogar y jardín</field>
+        </record>
+
+        <record id="economic_activity_671" model="elinvoice.economic_activity">
+            <field name="code">Otros</field>
+            <field name="name">Reparación de calzado y artículos de cuero</field>
+        </record>
+
+        <record id="economic_activity_672" model="elinvoice.economic_activity">
+            <field name="code">95240</field>
+            <field name="name">Reparación de muebles y accesorios para el hogar</field>
+        </record>
+
+        <record id="economic_activity_673" model="elinvoice.economic_activity">
+            <field name="code">95291</field>
+            <field name="name">Reparación de Instrumentos musicales</field>
+        </record>
+
+        <record id="economic_activity_674" model="elinvoice.economic_activity">
+            <field name="code">95292</field>
+            <field name="name">Servicios de cerrajería y copiado de llaves</field>
+        </record>
+
+        <record id="economic_activity_675" model="elinvoice.economic_activity">
+            <field name="code">95293</field>
+            <field name="name">Reparación de joyas y relojes</field>
+        </record>
+
+        <record id="economic_activity_676" model="elinvoice.economic_activity">
+            <field name="code">95294</field>
+            <field name="name">Reparación de bicicletas, sillas de ruedas y rodados n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_677" model="elinvoice.economic_activity">
+            <field name="code">95299</field>
+            <field name="name">Reparaciones de enseres personales n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_678" model="elinvoice.economic_activity">
+            <field name="code">96010</field>
+            <field name="name">Lavado y limpieza de prendas de tela y de piel, incluso la limpieza en seco</field>
+        </record>
+
+        <record id="economic_activity_679" model="elinvoice.economic_activity">
+            <field name="code">96020</field>
+            <field name="name">Peluquería y otros tratamientos de belleza</field>
+        </record>
+
+        <record id="economic_activity_680" model="elinvoice.economic_activity">
+            <field name="code">96030</field>
+            <field name="name">Pompas fúnebres y actividades conexas</field>
+        </record>
+
+        <record id="economic_activity_681" model="elinvoice.economic_activity">
+            <field name="code">96091</field>
+            <field name="name">Servicios de sauna y otros servicios para la estética corporal n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_682" model="elinvoice.economic_activity">
+            <field name="code">96092</field>
+            <field name="name">Servicios n.c.p.</field>
+        </record>
+
+        <record id="economic_activity_683" model="elinvoice.economic_activity">
+            <field name="code">97000</field>
+            <field name="name">Actividad de los hogares en calidad de empleadores de personal domestico</field>
+        </record>
+
+        <record id="economic_activity_684" model="elinvoice.economic_activity">
+            <field name="code">98100</field>
+            <field name="name">Actividades indiferenciadas de producción de bienes de los hogares privados para uso propio</field>
+        </record>
+
+        <record id="economic_activity_685" model="elinvoice.economic_activity">
+            <field name="code">98200</field>
+            <field name="name">Actividades indiferenciada de producción de servicios de los hogares privados para uso propio</field>
+        </record>
+
+        <record id="economic_activity_686" model="elinvoice.economic_activity">
+            <field name="code">99000</field>
+            <field name="name">Actividades de organizaciones  y órganos extraterritoriales</field>
+        </record>
+
+        <record id="economic_activity_687" model="elinvoice.economic_activity">
+            <field name="code">10001</field>
+            <field name="name">Empleados</field>
+        </record>
+
+        <record id="economic_activity_688" model="elinvoice.economic_activity">
+            <field name="code">10002</field>
+            <field name="name">Jubilado</field>
+        </record>
+
+        <record id="economic_activity_689" model="elinvoice.economic_activity">
+            <field name="code">10003</field>
+            <field name="name">Estudiante</field>
+        </record>
+
+        <record id="economic_activity_690" model="elinvoice.economic_activity">
+            <field name="code">10004</field>
+            <field name="name">Desempleado</field>
+        </record>
+
+        <record id="economic_activity_691" model="elinvoice.economic_activity">
+            <field name="code">10005</field>
+            <field name="name">Otros</field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+    <!-- complemento de actividades económicas -->
+        <record id="economic_activity_692" model="elinvoice.economic_activity">
+            <field name="code">11049</field>
+            <field name="name">Elaboración de bebidas no alcohólicas</field>
+        </record>
+
+        <record id="economic_activity_693" model="elinvoice.economic_activity">
+            <field name="code">43901</field>
+            <field name="name">Fabricación de techos y materiales diversos</field>
+        </record>
+
+        <record id="economic_activity_694" model="elinvoice.economic_activity">
+            <field name="code">45211</field>
+            <field name="name">Remolque de vehículos automotores</field>
+        </record>
+
+        <record id="economic_activity_695" model="elinvoice.economic_activity">
+            <field name="code">46211</field>
+            <field name="name">Venta de productos para uso agropecuario</field>
+        </record>
+
+        <record id="economic_activity_696" model="elinvoice.economic_activity">
+            <field name="code">46291</field>
+            <field name="name">Venta al por mayor de granos básicos (cereales, leguminosas)</field>
+        </record>
+
+        <record id="economic_activity_697" model="elinvoice.economic_activity">
+            <field name="code">46292</field>
+            <field name="name">Venta al por mayor de semillas mejoradas para cultivo</field>
+        </record>
+
+        <record id="economic_activity_698" model="elinvoice.economic_activity">
+            <field name="code">46293</field>
+            <field name="name">Venta al por mayor de café oro y uva</field>
+        </record>
+
+        <record id="economic_activity_699" model="elinvoice.economic_activity">
+            <field name="code">46294</field>
+            <field name="name">Venta al por mayor de caña de azúcar</field>
+        </record>
+
+        <record id="economic_activity_700" model="elinvoice.economic_activity">
+            <field name="code">46295</field>
+            <field name="name">Venta al por mayor de flores, plantas y otros productos naturales</field>
+        </record>
+
+        <record id="economic_activity_701" model="elinvoice.economic_activity">
+            <field name="code">46296</field>
+            <field name="name">Venta al por mayor de productos agrícolas</field>
+        </record>
+
+        <record id="economic_activity_702" model="elinvoice.economic_activity">
+            <field name="code">46297</field>
+            <field name="name">Venta al por mayor de ganado bovino (vivo)</field>
+        </record>
+
+        <record id="economic_activity_703" model="elinvoice.economic_activity">
+            <field name="code">46298</field>
+            <field name="name">Venta al por mayor de animales porcinos, ovinos, caprino, canículas,</field>
+        </record>
+
+        <record id="economic_activity_704" model="elinvoice.economic_activity">
+            <field name="code">46299</field>
+            <field name="name">Venta de otras especies vivas del reino animal</field>
+        </record>
+
+        <record id="economic_activity_705" model="elinvoice.economic_activity">
+            <field name="code">46371</field>
+            <field name="name">Venta al por mayor de frutas, hortalizas (verduras), legumbres y
+                tubérculos</field>
+        </record>
+
+        <record id="economic_activity_706" model="elinvoice.economic_activity">
+            <field name="code">46372</field>
+            <field name="name">Venta al por mayor de pollos, gallinas destazadas, pavos y otras aves</field>
+        </record>
+
+        <record id="economic_activity_707" model="elinvoice.economic_activity">
+            <field name="code">46373</field>
+            <field name="name">Venta al por mayor de carne bovina y porcina, productos de carne y
+                embutidos</field>
+        </record>
+
+        <record id="economic_activity_708" model="elinvoice.economic_activity">
+            <field name="code">46374</field>
+            <field name="name">Venta al por mayor de huevos</field>
+        </record>
+
+        <record id="economic_activity_709" model="elinvoice.economic_activity">
+            <field name="code">46375</field>
+            <field name="name">Venta al por mayor de productos lácteos</field>
+        </record>
+
+        <record id="economic_activity_710" model="elinvoice.economic_activity">
+            <field name="code">46376</field>
+            <field name="name">Venta al por mayor de productos farináceos de panadería (pan dulce,
+                cakes, respostería, etc.)</field>
+        </record>
+
+        <record id="economic_activity_711" model="elinvoice.economic_activity">
+            <field name="code">46377</field>
+            <field name="name">Venta al por mayor de pastas alimenticias, aceites y grasas</field>
+        </record>
+
+        <record id="economic_activity_712" model="elinvoice.economic_activity">
+            <field name="code">46378</field>
+            <field name="name">Venta al por mayor de sal comestible</field>
+        </record>
+
+        <record id="economic_activity_713" model="elinvoice.economic_activity">
+            <field name="code">46379</field>
+            <field name="name">Venta al por mayor de azúcar</field>
+        </record>
+
+        <record id="economic_activity_714" model="elinvoice.economic_activity">
+            <field name="code">46391</field>
+            <field name="name">Venta al por mayor de abarrotes (vinos, licores, productos</field>
+        </record>
+
+        <record id="economic_activity_715" model="elinvoice.economic_activity">
+            <field name="code">46392</field>
+            <field name="name">Venta al por mayor de aguas gaseosas</field>
+        </record>
+
+        <record id="economic_activity_716" model="elinvoice.economic_activity">
+            <field name="code">46393</field>
+            <field name="name">Venta al por mayor de agua purificada</field>
+        </record>
+
+        <record id="economic_activity_717" model="elinvoice.economic_activity">
+            <field name="code">46394</field>
+            <field name="name">Venta al por mayor de refrescos y otras bebidas, líquidas o en polvo</field>
+        </record>
+
+        <record id="economic_activity_718" model="elinvoice.economic_activity">
+            <field name="code">46395</field>
+            <field name="name">Venta al por mayor de cerveza y licores</field>
+        </record>
+
+        <record id="economic_activity_719" model="elinvoice.economic_activity">
+            <field name="code">46396</field>
+            <field name="name">Venta al por mayor de hielo</field>
+        </record>
+
+        <record id="economic_activity_720" model="elinvoice.economic_activity">
+            <field name="code">46471</field>
+            <field name="name">Venta al por mayor de instrumentos musicales</field>
+        </record>
+
+        <record id="economic_activity_721" model="elinvoice.economic_activity">
+            <field name="code">46472</field>
+            <field name="name">Venta al por mayor de colchones, almohadas, cojines, etc.</field>
+        </record>
+
+        <record id="economic_activity_722" model="elinvoice.economic_activity">
+            <field name="code">46473</field>
+            <field name="name">Venta al por mayor de artículos de aluminio para el hogar y para
+                otros usos</field>
+        </record>
+
+        <record id="economic_activity_723" model="elinvoice.economic_activity">
+            <field name="code">46474</field>
+            <field name="name">Venta al por mayor de depósitos y otros artículos plásticos para el
+                hogar y otros usos, incluyendo los desechables de durapax y no desechables</field>
+        </record>
+
+        <record id="economic_activity_724" model="elinvoice.economic_activity">
+            <field name="code">46475</field>
+            <field name="name">Venta al por mayor de cámaras fotográficas, accesorios y materiales</field>
+        </record>
+
+        <record id="economic_activity_725" model="elinvoice.economic_activity">
+            <field name="code">46482</field>
+            <field name="name">Venta al por mayor de medicamentos, artículos y otros productos de
+                uso veterinario</field>
+        </record>
+
+        <record id="economic_activity_726" model="elinvoice.economic_activity">
+            <field name="code">46483</field>
+            <field name="name">Venta al por mayor de productos y artículos de belleza y de uso
+                personal</field>
+        </record>
+
+        <record id="economic_activity_727" model="elinvoice.economic_activity">
+            <field name="code">46484</field>
+            <field name="name">Venta de productos farmacéuticos y medicinales</field>
+        </record>
+
+        <record id="economic_activity_728" model="elinvoice.economic_activity">
+            <field name="code">46500</field>
+            <field name="name">Venta al por mayor de bicicletas, partes, accesorios y otros</field>
+        </record>
+
+        <record id="economic_activity_729" model="elinvoice.economic_activity">
+            <field name="code">46590</field>
+            <field name="name">Venta de equipos e instrumentos de uso profesional y científico y</field>
+        </record>
+
+        <record id="economic_activity_730" model="elinvoice.economic_activity">
+            <field name="code">46612</field>
+            <field name="name">Venta al por mayor de combustibles para automotores, aviones, barcos,
+                maquinaria y otros</field>
+        </record>
+
+        <record id="economic_activity_731" model="elinvoice.economic_activity">
+            <field name="code">46613</field>
+            <field name="name">Venta al por mayor de lubricantes, grasas y otros aceites para</field>
+        </record>
+
+        <record id="economic_activity_732" model="elinvoice.economic_activity">
+            <field name="code">46614</field>
+            <field name="name">Venta al por mayor de gas propano</field>
+        </record>
+
+        <record id="economic_activity_733" model="elinvoice.economic_activity">
+            <field name="code">46615</field>
+            <field name="name">Venta al por mayor de leña y carbón</field>
+        </record>
+
+        <record id="economic_activity_734" model="elinvoice.economic_activity">
+            <field name="code">46701</field>
+            <field name="name">Venta de algodón en oro</field>
+        </record>
+
+        <record id="economic_activity_735" model="elinvoice.economic_activity">
+            <field name="code">46901</field>
+            <field name="name">Venta al por mayor de cohetes y otros productos pirotécnicos</field>
+        </record>
+
+        <record id="economic_activity_736" model="elinvoice.economic_activity">
+            <field name="code">46902</field>
+            <field name="name">Venta al por mayor de artículos diversos para consumo humano</field>
+        </record>
+
+        <record id="economic_activity_737" model="elinvoice.economic_activity">
+            <field name="code">46903</field>
+            <field name="name">Venta al por mayor de armas de fuego, municiones y accesorios</field>
+        </record>
+
+        <record id="economic_activity_738" model="elinvoice.economic_activity">
+            <field name="code">46904</field>
+            <field name="name">Venta al por mayor de toldos y tiendas de campaña de cualquier
+                material</field>
+        </record>
+
+        <record id="economic_activity_739" model="elinvoice.economic_activity">
+            <field name="code">46905</field>
+            <field name="name">Venta al por mayor de exhibidores publicitarios y rótulos</field>
+        </record>
+
+        <record id="economic_activity_740" model="elinvoice.economic_activity">
+            <field name="code">46906</field>
+            <field name="name">Venta al por mayor de artículos promocionales diversos</field>
+        </record>
+
+        <record id="economic_activity_741" model="elinvoice.economic_activity">
+            <field name="code">47119</field>
+            <field name="name">Almacenes (venta de diversos artículos)</field>
+        </record>
+
+        <record id="economic_activity_742" model="elinvoice.economic_activity">
+            <field name="code">47199</field>
+            <field name="name">Venta de establecimientos no especializados con surtido compuesto
+                principalmente de alimentos, bebidas y tabaco</field>
+        </record>
+
+        <record id="economic_activity_743" model="elinvoice.economic_activity">
+            <field name="code">47216</field>
+            <field name="name">Venta al por menor de huevos</field>
+        </record>
+
+        <record id="economic_activity_744" model="elinvoice.economic_activity">
+            <field name="code">47217</field>
+            <field name="name">Venta al por menor de carnes y productos cárnicos</field>
+        </record>
+
+        <record id="economic_activity_745" model="elinvoice.economic_activity">
+            <field name="code">47218</field>
+            <field name="name">Venta al por menor de granos básicos y otros</field>
+        </record>
+
+        <record id="economic_activity_746" model="elinvoice.economic_activity">
+            <field name="code">47223</field>
+            <field name="name">Venta de bebidas no alcohólicas, para su consumo fuera del
+                establecimiento</field>
+        </record>
+
+        <record id="economic_activity_747" model="elinvoice.economic_activity">
+            <field name="code">47224</field>
+            <field name="name">Venta de bebidas alcohólicas, para su consumo fuera del</field>
+        </record>
+
+        <record id="economic_activity_748" model="elinvoice.economic_activity">
+            <field name="code">47225</field>
+            <field name="name">Venta de bebidas alcohólicas para su consumo dentro del
+                establecimiento</field>
+        </record>
+
+        <record id="economic_activity_749" model="elinvoice.economic_activity">
+            <field name="code">47598</field>
+            <field name="name">Venta al por menor de instrumentos musicales</field>
+        </record>
+
+        <record id="economic_activity_750" model="elinvoice.economic_activity">
+            <field name="code">47631</field>
+            <field name="name">Venta al por menor de bicicletas, accesorios y repuestos</field>
+        </record>
+
+        <record id="economic_activity_751" model="elinvoice.economic_activity">
+            <field name="code">47736</field>
+            <field name="name">Venta al por menor de armas de fuego, municiones y accesorios</field>
+        </record>
+
+        <record id="economic_activity_752" model="elinvoice.economic_activity">
+            <field name="code">47737</field>
+            <field name="name">Venta al por menor de artículos de cohetería y pirotécnicos</field>
+        </record>
+
+        <record id="economic_activity_753" model="elinvoice.economic_activity">
+            <field name="code">47738</field>
+            <field name="name">Venta al por menor de artículos desechables de uso personal y
+                doméstico (servilletas, papel higiénico, pañales, toallas sanitarias, etc.)</field>
+        </record>
+
+        <record id="economic_activity_754" model="elinvoice.economic_activity">
+            <field name="code">49213</field>
+            <field name="name">Transporte de pasajeros urbanos e interurbano mediante microbuses</field>
+        </record>
+
+        <record id="economic_activity_755" model="elinvoice.economic_activity">
+            <field name="code">49214</field>
+            <field name="name">Transporte de pasajeros interdepartamental mediante buses</field>
+        </record>
+
+        <record id="economic_activity_756" model="elinvoice.economic_activity">
+            <field name="code">49223</field>
+            <field name="name">Transporte escolar</field>
+        </record>
+
+        <record id="economic_activity_757" model="elinvoice.economic_activity">
+            <field name="code">49225</field>
+            <field name="name">Transporte de pasajeros para excursiones</field>
+        </record>
+
+        <record id="economic_activity_758" model="elinvoice.economic_activity">
+            <field name="code">49226</field>
+            <field name="name">Servicios de transporte de personal</field>
+        </record>
+
+        <record id="economic_activity_759" model="elinvoice.economic_activity">
+            <field name="code">52291</field>
+            <field name="name">Agencias de tramitaciones aduanales</field>
+        </record>
+
+        <record id="economic_activity_760" model="elinvoice.economic_activity">
+            <field name="code">53201</field>
+            <field name="name">Agencia privada de correo y encomiendas</field>
+        </record>
+
+        <record id="economic_activity_761" model="elinvoice.economic_activity">
+            <field name="code">55101</field>
+            <field name="name">Actividades de alojamiento para estancias cortas</field>
+        </record>
+
+        <record id="economic_activity_762" model="elinvoice.economic_activity">
+            <field name="code">55102</field>
+            <field name="name">Hoteles</field>
+        </record>
+
+        <record id="economic_activity_763" model="elinvoice.economic_activity">
+            <field name="code">56101</field>
+            <field name="name">Restaurantes</field>
+        </record>
+
+        <record id="economic_activity_764" model="elinvoice.economic_activity">
+            <field name="code">56106</field>
+            <field name="name">Pupusería</field>
+        </record>
+
+        <record id="economic_activity_765" model="elinvoice.economic_activity">
+            <field name="code">56107</field>
+            <field name="name">Actividades varias de restaurantes</field>
+        </record>
+
+        <record id="economic_activity_766" model="elinvoice.economic_activity">
+            <field name="code">56108</field>
+            <field name="name">Comedores</field>
+        </record>
+
+        <record id="economic_activity_767" model="elinvoice.economic_activity">
+            <field name="code">56109</field>
+            <field name="name">Merenderos ambulantes</field>
+        </record>
+
+        <record id="economic_activity_768" model="elinvoice.economic_activity">
+            <field name="code">60299</field>
+            <field name="name">Servicios de televisión, incluye televisión por cable</field>
+        </record>
+
+        <record id="economic_activity_769" model="elinvoice.economic_activity">
+            <field name="code">60900</field>
+            <field name="name">Programación y transmisión de radio y televisión</field>
+        </record>
+
+        <record id="economic_activity_770" model="elinvoice.economic_activity">
+            <field name="code">61103</field>
+            <field name="name">Servicio de telefonía fija</field>
+        </record>
+
+        <record id="economic_activity_771" model="elinvoice.economic_activity">
+            <field name="code">64192</field>
+            <field name="name">Entidades dedicadas al envío de remesas</field>
+        </record>
+
+        <record id="economic_activity_772" model="elinvoice.economic_activity">
+            <field name="code">64199</field>
+            <field name="name">Otras entidades financieras</field>
+        </record>
+
+        <record id="economic_activity_773" model="elinvoice.economic_activity">
+            <field name="code">64921</field>
+            <field name="name">Instituciones emisoras de tarjetas de crédito y otros</field>
+        </record>
+
+        <record id="economic_activity_774" model="elinvoice.economic_activity">
+            <field name="code">64922</field>
+            <field name="name">Tipos de crédito ncp</field>
+        </record>
+
+        <record id="economic_activity_775" model="elinvoice.economic_activity">
+            <field name="code">64928</field>
+            <field name="name">Prestamistas y casas de empeño</field>
+        </record>
+
+        <record id="economic_activity_776" model="elinvoice.economic_activity">
+            <field name="code">65199</field>
+            <field name="name">Seguros generales de todo tipo</field>
+        </record>
+
+        <record id="economic_activity_777" model="elinvoice.economic_activity">
+            <field name="code">72199</field>
+            <field name="name">Investigaciones científicas</field>
+        </record>
+
+        <record id="economic_activity_778" model="elinvoice.economic_activity">
+            <field name="code">84111</field>
+            <field name="name">Alcaldías Municipales</field>
+        </record>
+
+        <record id="economic_activity_779" model="elinvoice.economic_activity">
+            <field name="code">85499</field>
+            <field name="name">Enseñanza formal</field>
+        </record>
+
+        <record id="economic_activity_780" model="elinvoice.economic_activity">
+            <field name="code">86203</field>
+            <field name="name">Servicios médicos</field>
+        </record>
+
+        <record id="economic_activity_781" model="elinvoice.economic_activity">
+            <field name="code">87901</field>
+            <field name="name">Otras actividades de atención en instituciones</field>
+        </record>
+
+        <record id="economic_activity_782" model="elinvoice.economic_activity">
+            <field name="code">93298</field>
+            <field name="name">Centros vacacionales</field>
+        </record>
+
+        <record id="economic_activity_783" model="elinvoice.economic_activity">
+            <field name="code">95230</field>
+            <field name="name">Reparación de calzado y artículos de cuero</field>
+        </record>
+
+        <record id="economic_activity_784" model="elinvoice.economic_activity">
+            <field name="code">10006</field>
+            <field name="name">Comerciante</field>
+        </record>
+
+    </data>
+</odoo>

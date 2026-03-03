@@ -1,0 +1,79 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_invoice_tree_inherit_elinvoice" model="ir.ui.view">
+            <field name="name">account.invoice.list.inherit.elinvoice</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_invoice_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//list//field[@name='status_in_payment']" position="after">
+                    <field 
+                        name="processed_status_mh" 
+                        widget="badge" 
+                        string="Estado MH" 
+                        decoration-warning="processed_status_mh == 'No aplicado a MH'"
+                        decoration-danger="processed_status_mh == 'Anulado MH'"
+                        decoration-success="processed_status_mh == 'Procesado MH'"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_account_move_form_inherit_elinvoice" model="ir.ui.view">
+            <field name="name">account.move.form.inherit.elinvoice</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//header//button[@name='button_set_checked']" position="after">
+                    <field name="is_processed" invisible="true" />
+                    <field name="is_anulated" invisible="true" />
+                    <button string="Procesar MH" type="object" name="create_confirmation" invisible="is_processed == True or state != 'posted'" class="oe_highlight"/>
+                    <button string="Anular MH" type="object" name="revert_document" invisible="is_anulated == True or state != 'cancel'" confirm="¿Esta seguro de querer anular el documento?" />
+                </xpath>
+                <xpath expr="//sheet//div[@name='journal_div']" position="after">
+                    <field name="tipo_ingreso_renta_move" string="Tipo ingreso (Renta)" invisible="move_type not in ('out_invoice', 'out_refund', 'out_receipt')"/>
+                    <field name="tipo_operacion_renta_move" string="Tipo operacion (Renta)" invisible="move_type not in ('out_invoice', 'out_refund', 'out_receipt')"/>
+
+                    <field name="numero_control" invisible="move_type not in ('in_invoice', 'in_refund', 'in_receipt')" required="1"/>
+                    <field name="codigo_generacion" invisible="move_type not in ('in_invoice', 'in_refund', 'in_receipt')" required="1"/>
+                    <field name="sello_recepcion" invisible="move_type not in ('in_invoice', 'in_refund', 'in_receipt')" required="1"/>
+                    <field name="tipo_documento" invisible="move_type not in ('in_invoice', 'in_refund', 'in_receipt')" required="1"/>
+                </xpath>
+                <xpath expr="//sheet//notebook//page[@name='invoice_tab']//field[@name='invoice_line_ids']//field[@name='name']" position="after">
+                    <field name="tipo_operacion_renta"/>
+                </xpath>
+                <xpath expr="//sheet//notebook//page[@name='other_info']//field[@name='checked']" position="after">
+                    <field name="is_processed" string="Procesado MH"/>
+                    <field name="is_anulated" string="Anulado MH"/>
+                </xpath>
+                <xpath expr="//sheet//notebook" position="inside">
+                    <page string="Confirmacion MH">
+                        <field name="confirmation_id">
+                            <list>
+                                <field name="received_seal" />
+                                <field name="control_number" />
+                                <field name="authorization_date" />
+                                <field name="url_qr" />
+                                <field name="uid_de" />
+                                <field name="status" option="hide" />
+                                <field name="message" option="hide" />
+                            </list>
+                        </field>
+                    </page>
+                </xpath>
+                <xpath expr="//sheet//notebook" position="inside">
+                    <page string="Info. Comp. Retención">
+                        <group>
+                            <field name="purchase_doc_number" />
+                            <field name="purchase_doc_resolution" />
+                            <field name="purchase_doc_serie" />
+
+                            <field name="purchase_doc_date" />
+                            <field name="purchase_doc_generation" />
+                            <field name="purchase_doc_type" />
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

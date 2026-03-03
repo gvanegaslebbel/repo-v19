@@ -1,0 +1,36 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_res_company_form_inherit_elinvoice" model="ir.ui.view">
+            <field name="name">res.company.form.inherit.elinvoice</field>
+            <field name="model">res.company</field>
+            <field name="inherit_id" ref="base.view_company_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//sheet//notebook" position="inside">
+                    <page string="Informacion MH">
+                        <group name="container_row_2">
+                            <group string="Datos" name="info_mh" priority="1">
+                                <field name="nit" />
+                                <field name="nrc" />
+
+                                <field name="codpuntoventamh" />
+                                <field name="codpuntoventa" />
+
+                                <field name="api_key" />
+                                <field name="tipo_ingreso_renta_conf"/>
+                            </group>
+                            <group string="Actividad" name="activ_mh" priority="2">
+                                <field name="codactividad" />
+                                <field name="descactividad" />
+
+                                <field name="tipoestablecimiento" />
+                                <field name="codestablemh" />
+                                <field name="codestable" />
+                            </group>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

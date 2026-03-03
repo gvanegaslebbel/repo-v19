@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- países -->
+        <record id="country_1" model="elinvoice.country">
+            <field name="code">9300</field>
+            <field name="name">El Salvador</field>
+        </record>
+
+        <!-- Estados -->
+        <record id="state_1" model="elinvoice.state">
+            <field name="code">01</field>
+            <field name="name">AHUACHAPÁN</field>
+        </record>
+        <record id="state_2" model="elinvoice.state">
+            <field name="code">02</field>
+            <field name="name">SANTA ANA</field>
+        </record>
+        <record id="state_3" model="elinvoice.state">
+            <field name="code">03</field>
+            <field name="name">SONSONATE</field>
+        </record>
+        <record id="state_4" model="elinvoice.state">
+            <field name="code">04</field>
+            <field name="name">CHALATENANGO</field>
+        </record>
+        <record id="state_5" model="elinvoice.state">
+            <field name="code">05</field>
+            <field name="name">LA LIBERTAD</field>
+        </record>
+        <record id="state_6" model="elinvoice.state">
+            <field name="code">06</field>
+            <field name="name">SAN SALVADOR</field>
+        </record>
+        <record id="state_7" model="elinvoice.state">
+            <field name="code">07</field>
+            <field name="name">CUSCATLÁN</field>
+        </record>
+        <record id="state_8" model="elinvoice.state">
+            <field name="code">08</field>
+            <field name="name">LA PAZ</field>
+        </record>
+        <record id="state_9" model="elinvoice.state">
+            <field name="code">09</field>
+            <field name="name">CABAÑAS</field>
+        </record>
+        <record id="state_10" model="elinvoice.state">
+            <field name="code">10</field>
+            <field name="name">SAN VICENTE</field>
+        </record>
+        <record id="state_11" model="elinvoice.state">
+            <field name="code">11</field>
+            <field name="name">USULUTÁN</field>
+        </record>
+        <record id="state_12" model="elinvoice.state">
+            <field name="code">12</field>
+            <field name="name">SAN MIGUEL</field>
+        </record>
+        <record id="state_13" model="elinvoice.state">
+            <field name="code">13</field>
+            <field name="name">MORAZÁN</field>
+        </record>
+        <record id="state_14" model="elinvoice.state">
+            <field name="code">14</field>
+            <field name="name">LA UNIÓN</field>
+        </record>
+
+        <!-- Ciudades -->
+        <record id="city_1" model="elinvoice.city">
+            <field name="code">01</field>
+            <field name="name">Ahuachapán</field>
+        </record>
+        <record id="city_2" model="elinvoice.city">
+            <field name="code">02</field>
+            <field name="name">Apaneca</field>
+        </record>
+        <record id="city_3" model="elinvoice.city">
+            <field name="code">03</field>
+            <field name="name">Atiquizaya</field>
+        </record>
+        <record id="city_4" model="elinvoice.city">
+            <field name="code">04</field>
+            <field name="name">Concepción de Ataco</field>
+        </record>
+        <record id="city_5" model="elinvoice.city">
+            <field name="code">05</field>
+            <field name="name">El Refugio</field>
+        </record>
+        <record id="city_6" model="elinvoice.city">
+            <field name="code">06</field>
+            <field name="name">Guaymango</field>
+        </record>
+        <record id="city_7" model="elinvoice.city">
+            <field name="code">07</field>
+            <field name="name">Jujutla</field>
+        </record>
+        <record id="city_8" model="elinvoice.city">
+            <field name="code">08</field>
+            <field name="name">San Francisco Menéndez</field>
+        </record>
+        <record id="city_9" model="elinvoice.city">
+            <field name="code">09</field>
+            <field name="name">San Lorenzo</field>
+        </record>
+        <record id="city_10" model="elinvoice.city">
+            <field name="code">10</field>
+            <field name="name">San Pedro Puxtla</field>
+        </record>
+        <record id="city_11" model="elinvoice.city">
+            <field name="code">11</field>
+            <field name="name">Tacuba</field>
+        </record>
+        <record id="city_12" model="elinvoice.city">
+            <field name="code">12</field>
+            <field name="name">Turín</field>
+        </record>
+        <record id="city_13" model="elinvoice.city">
+            <field name="code">01</field>
+            <field name="name">Candelaria de la Frontera</field>
+        </record>
+        <record id="city_14" model="elinvoice.city">
+            <field name="code">02</field>
+            <field name="name">Coatepeque</field>
+        </record>
+        <record id="city_15" model="elinvoice.city">
+            <field name="code">03</field>
+            <field name="name">Chalchuapa</field>
+        </record>
+        <record id="city_16" model="elinvoice.city">
+            <field name="code">04</field>
+            <field name="name">El Congo</field>
+        </record>
+        <record id="city_17" model="elinvoice.city">
+            <field name="code">05</field>
+            <field name="name">El Porvenir</field>
+        </record>
+        <record id="city_18" model="elinvoice.city">
+            <field name="code">06</field>
+            <field name="name">Masahuat</field>
+        </record>
+        <record id="city_19" model="elinvoice.city">
+            <field name="code">07</field>
+            <field name="name">Metapán</field>
+        </record>
+        <record id="city_20" model="elinvoice.city">
+            <field name="code">08</field>
+            <field name="name">San Antonio Pajonal</field>
+        </record>
+        <record id="city_21" model="elinvoice.city">
+            <field name="code">09</field>
+            <field name="name">San Sebastián Salitrillo</field>
+        </record>
+        <record id="city_22" model="elinvoice.city">
+            <field name="code">10</field>
+            <field name="name">Santa Ana</field>
+        </record>
+        <record id="city_23" model="elinvoice.city">
+            <field name="code">11</field>
+            <field name="name">Santa Rosa Guachipilín</field>
+        </record>
+        <record id="city_24" model="elinvoice.city">
+            <field name="code">12</field>
+            <field name="name">Santiago de la Frontera</field>
+        </record>
+        <record id="city_25" model="elinvoice.city">
+            <field name="code">13</field>
+            <field name="name">Texistepeque</field>
+        </record>
+        <record id="city_26" model="elinvoice.city">
+            <field name="code">01</field>
+            <field name="name">Acajutla</field>
+        </record>
+        <record id="city_27" model="elinvoice.city">
+            <field name="code">02</field>
+            <field name="name">Armenia</field>
+        </record>
+        <record id="city_28" model="elinvoice.city">
+            <field name="code">03</field>
+            <field name="name">Caluco</field>
+        </record>
+        <record id="city_29" model="elinvoice.city">
+            <field name="code">04</field>
+            <field name="name">Cuisnahuat</field>
+        </record>
+        <record id="city_30" model="elinvoice.city">
+            <field name="code">05</field>
+            <field name="name">Santa Isabel Ishuatán</field>
+        </record>
+        <record id="city_31" model="elinvoice.city">
+            <field name="code">06</field>
+            <field name="name">Izalco</field>
+        </record>
+        <record id="city_32" model="elinvoice.city">
+            <field name="code">07</field>
+            <field name="name">Juayúa</field>
+        </record>
+        <record id="city_33" model="elinvoice.city">
+            <field name="code">08</field>
+            <field name="name">Nahuizalco</field>
+        </record>
+        <record id="city_34" model="elinvoice.city">
+            <field name="code">09</field>
+            <field name="name">Nahulingo</field>
+        </record>
+        <record id="city_35" model="elinvoice.city">
+            <field name="code">10</field>
+            <field name="name">Salcoatitán</field>
+        </record>
+        <record id="city_36" model="elinvoice.city">
+            <field name="code">11</field>
+            <field name="name">San Antonio del Monte</field>
+        </record>
+        <record id="city_37" model="elinvoice.city">
+            <field name="code">12</field>
+            <field name="name">San Julián</field>
+        </record>
+        <record id="city_38" model="elinvoice.city">
+            <field name="code">13</field>
+            <field name="name">Santa Catarina Masahuat</field>
+        </record>
+        <record id="city_39" model="elinvoice.city">
+            <field name="code">14</field>
+            <field name="name">Santo Domingo Guzmán</field>
+        </record>
+        <record id="city_40" model="elinvoice.city">
+            <field name="code">15</field>
+            <field name="name">Sonsonate</field>
+        </record>
+        <record id="city_41" model="elinvoice.city">
+            <field name="code">16</field>
+            <field name="name">Sonzacate</field>
+        </record>
+        <record id="city_42" model="elinvoice.city">
+            <field name="code">01</field>
+            <field name="name">Agua Caliente</field>
+        </record>
+        <record id="city_43" model="elinvoice.city">
+            <field name="code">02</field>
+            <field name="name">Arcatao</field>
+        </record>
+        <record id="city_44" model="elinvoice.city">
+            <field name="code">03</field>
+            <field name="name">Azacualpa</field>
+        </record>
+        <record id="city_45" model="elinvoice.city">
+            <field name="code">04</field>
+            <field name="name">Citalá</field>
+        </record>
+        <record id="city_46" model="elinvoice.city">
+            <field name="code">05</field>
+            <field name="name">Comalapa</field>
+        </record>
+        <record id="city_47" model="elinvoice.city">
+            <field name="code">06</field>
+            <field name="name">Concepción Quezaltepeque</field>
+        </record>
+        <record id="city_48" model="elinvoice.city">
+            <field name="code">07</field>
+            <field name="name">Chalatenango</field>
+        </record>
+        <record id="city_49" model="elinvoice.city">
+            <field name="code">08</field>
+            <field name="name">Dulce Nombre de María</field>
+        </record>
+        <record id="city_50" model="elinvoice.city">
+            <field name="code">09</field>
+            <field name="name">El Carrizal</field>
+        </record>
+        <record id="city_51" model="elinvoice.city">
+            <field name="code">10</field>
+            <field name="name">El Paraíso</field>
+        </record>
+        <record id="city_52" model="elinvoice.city">
+            <field name="code">11</field>
+            <field name="name">La Laguna</field>
+        </record>
+        <record id="city_53" model="elinvoice.city">
+            <field name="code">12</field>
+            <field name="name">La Palma</field>
+        </record>
+        <record id="city_54" model="elinvoice.city">
+            <field name="code">13</field>
+            <field name="name">La Reina</field>
+        </record>
+        <record id="city_55" model="elinvoice.city">
+            <field name="code">14</field>
+            <field name="name">Las Vueltas</field>
+        </record>
+        <record id="city_56" model="elinvoice.city">
+            <field name="code">15</field>
+            <field name="name">Nombre de Jesús</field>
+        </record>
+        <record id="city_57" model="elinvoice.city">
+            <field name="code">16</field>
+            <field name="name">Nueva Concepción</field>
+        </record>
+        <record id="city_58" model="elinvoice.city">
+            <field name="code">17</field>
+            <field name="name">Nueva Trinidad</field>
+        </record>
+        <record id="city_59" model="elinvoice.city">
+            <field name="code">18</field>
+            <field name="name">Ojos de Agua</field>
+        </record>
+        <record id="city_60" model="elinvoice.city">
+            <field name="code">19</field>
+            <field name="name">Potonico</field>
+        </record>
+        <record id="city_61" model="elinvoice.city">
+            <field name="code">20</field>
+            <field name="name">San Antonio de la Cruz</field>
+        </record>
+        <record id="city_62" model="elinvoice.city">
+            <field name="code">21</field>
+            <field name="name">San Antonio Los Ranchos</field>
+        </record>
+        <record id="city_63" model="elinvoice.city">
+            <field name="code">22</field>
+            <field name="name">San Fernando</field>
+        </record>
+        <record id="city_64" model="elinvoice.city">
+            <field name="code">23</field>
+            <field name="name">San Francisco Lempa</field>
+        </record>
+        <record id="city_65" model="elinvoice.city">
+            <field name="code">24</field>
+            <field name="name">San Francisco Morazán</field>
+        </record>
+        <record id="city_66" model="elinvoice.city">
+            <field name="code">25</field>
+            <field name="name">San Ignacio</field>
+        </record>
+        <record id="city_67" model="elinvoice.city">
+            <field name="code">26</field>
+            <field name="name">San Isidro Labrador</field>
+        </record>
+        <record id="city_68" model="elinvoice.city">
+            <field name="code">27</field>
+            <field name="name">San José Cancasque</field>
+        </record>
+        <record id="city_69" model="elinvoice.city">
+            <field name="code">28</field>
+            <field name="name">San José Las Flores</field>
+        </record>
+        <record id="city_70" model="elinvoice.city">
+            <field name="code">29</field>
+            <field name="name">San Luis del Carmen</field>
+        </record>
+        <record id="city_71" model="elinvoice.city">
+            <field name="code">30</field>
+            <field name="name">San Miguel de Mercedes</field>
+        </record>
+        <record id="city_72" model="elinvoice.city">
+            <field name="code">31</field>
+            <field name="name">San Rafael</field>
+        </record>
+        <record id="city_73" model="elinvoice.city">
+            <field name="code">32</field>
+            <field name="name">Santa Rita</field>
+        </record>
+        <record id="city_74" model="elinvoice.city">
+            <field name="code">33</field>
+            <field name="name">Tejutla</field>
+        </record>
+        <record id="city_75" model="elinvoice.city">
+            <field name="code">01</field>
+            <field name="name">Antiguo Cuscatlán</field>
+        </record>
+        <record id="city_76" model="elinvoice.city">
+            <field name="code">02</field>
+            <field name="name">Ciudad Arce</field>
+        </record>
+        <record id="city_77" model="elinvoice.city">
+            <field name="code">03</field>
+            <field name="name">Colón</field>
+        </record>
+        <record id="city_78" model="elinvoice.city">
+            <field name="code">04</field>
+            <field name="name">Comasagua</field>
+        </record>
+        <record id="city_79" model="elinvoice.city">
+            <field name="code">05</field>
+            <field name="name">Chiltiupan</field>
+        </record>
+        <record id="city_80" model="elinvoice.city">
+            <field name="code">06</field>
+            <field name="name">Huizúcar</field>
+        </record>
+        <record id="city_81" model="elinvoice.city">
+            <field name="code">07</field>
+            <field name="name">Jayaque</field>
+        </record>
+        <record id="city_82" model="elinvoice.city">
+            <field name="code">08</field>
+            <field name="name">Jicalapa</field>
+        </record>
+        <record id="city_83" model="elinvoice.city">
+            <field name="code">09</field>
+            <field name="name">La Libertad</field>
+        </record>
+        <record id="city_84" model="elinvoice.city">
+            <field name="code">10</field>
+            <field name="name">Nuevo Cuscatlán</field>
+        </record>
+        <record id="city_85" model="elinvoice.city">
+            <field name="code">11</field>
+            <field name="name">Santa Tecla</field>
+        </record>
+        <record id="city_86" model="elinvoice.city">
+            <field name="code">12</field>
+            <field name="name">Quezaltepeque</field>
+        </record>
+        <record id="city_87" model="elinvoice.city">
+            <field name="code">13</field>
+            <field name="name">Sacacoyo</field>
+        </record>
+        <record id="city_88" model="elinvoice.city">
+            <field name="code">14</field>
+            <field name="name">San José Villanueva</field>
+        </record>
+        <record id="city_89" model="elinvoice.city">
+            <field name="code">15</field>
+            <field name="name">San Juan Opico</field>
+        </record>
+        <record id="city_90" model="elinvoice.city">
+            <field name="code">16</field>
+            <field name="name">San Matías</field>
+        </record>
+        <record id="city_91" model="elinvoice.city">
+            <field name="code">17</field>
+            <field name="name">San Pablo Tacachico</field>
+        </record>
+        <record id="city_92" model="elinvoice.city">
+            <field name="code">18</field>
+            <field name="name">Tamanique</field>
+        </record>
+        <record id="city_93" model="elinvoice.city">
+            <field name="code">19</field>
+            <field name="name">Talinque</field>
+        </record>
+        <record id="city_94" model="elinvoice.city">
+            <field name="code">20</field>
+            <field name="name">Teotepeque</field>
+        </record>
+        <record id="city_95" model="elinvoice.city">
+            <field name="code">21</field>
+            <field name="name">Tepecoyo</field>
+        </record>
+        <record id="city_96" model="elinvoice.city">
+            <field name="code">22</field>
+            <field name="name">Zaragoza</field>
+        </record>
+        <record id="city_97" model="elinvoice.city">
+            <field name="code">01</field>
+            <field name="name">Aguilares</field>
+        </record>
+        <record id="city_98" model="elinvoice.city">
+            <field name="code">02</field>
+            <field name="name">Apopa</field>
+        </record>
+        <record id="city_99" model="elinvoice.city">
+            <field name="code">03</field>
+            <field name="name">Ayutuxtepeque</field>
+        </record>
+        <record id="city_100" model="elinvoice.city">
+            <field name="code">04</field>
+            <field name="name">Cuscatancingo</field>
+        </record>
+        <record id="city_101" model="elinvoice.city">
+            <field name="code">05</field>
+            <field name="name">El Paisnal</field>
+        </record>
+        <record id="city_102" model="elinvoice.city">
+            <field name="code">06</field>
+            <field name="name">Guazapa</field>
+        </record>
+        <record id="city_103" model="elinvoice.city">
+            <field name="code">07</field>
+            <field name="name">Ilopango</field>
+        </record>
+        <record id="city_104" model="elinvoice.city">
+            <field name="code">08</field>
+            <field name="name">Mejicanos</field>
+        </record>
+        <record id="city_105" model="elinvoice.city">
+            <field name="code">09</field>
+            <field name="name">Nejapa</field>
+        </record>
+        <record id="city_106" model="elinvoice.city">
+            <field name="code">10</field>
+            <field name="name">Panchimalco</field>
+        </record>
+        <record id="city_107" model="elinvoice.city">
+            <field name="code">11</field>
+            <field name="name">Rosario de Mora</field>
+        </record>
+        <record id="city_108" model="elinvoice.city">
+            <field name="code">12</field>
+            <field name="name">San Marcos</field>
+        </record>
+        <record id="city_109" model="elinvoice.city">
+            <field name="code">13</field>
+            <field name="name">San Martín</field>
+        </record>
+        <record id="city_110" model="elinvoice.city">
+            <field name="code">14</field>
+            <field name="name">San Salvador</field>
+        </record>
+        <record id="city_111" model="elinvoice.city">
+            <field name="code">15</field>
+            <field name="name">Santiago Texacuangos</field>
+        </record>
+        <record id="city_112" model="elinvoice.city">
+            <field name="code">16</field>
+            <field name="name">Santo Tomás</field>
+        </record>
+        <record id="city_113" model="elinvoice.city">
+            <field name="code">17</field>
+            <field name="name">Soyapango</field>
+        </record>
+        <record id="city_114" model="elinvoice.city">
+            <field name="code">18</field>
+            <field name="name">Tonacatepeque</field>
+        </record>
+        <record id="city_115" model="elinvoice.city">
+            <field name="code">19</field>
+            <field name="name">Ciudad Delgado</field>
+        </record>
+        <record id="city_116" model="elinvoice.city">
+            <field name="code">01</field>
+            <field name="name">Candelaria</field>
+        </record>
+        <record id="city_117" model="elinvoice.city">
+            <field name="code">02</field>
+            <field name="name">Cojutepeque</field>
+        </record>
+        <record id="city_118" model="elinvoice.city">
+            <field name="code">03</field>
+            <field name="name">El Carmen</field>
+        </record>
+        <record id="city_119" model="elinvoice.city">
+            <field name="code">04</field>
+            <field name="name">El Rosario</field>
+        </record>
+        <record id="city_120" model="elinvoice.city">
+            <field name="code">05</field>
+            <field name="name">Monte San Juan</field>
+        </record>
+        <record id="city_121" model="elinvoice.city">
+            <field name="code">06</field>
+            <field name="name">Oratorio de Concepción</field>
+        </record>
+        <record id="city_122" model="elinvoice.city">
+            <field name="code">07</field>
+            <field name="name">San Bartolomé Perulapía</field>
+        </record>
+        <record id="city_123" model="elinvoice.city">
+            <field name="code">08</field>
+            <field name="name">San Cristóbal</field>
+        </record>
+        <record id="city_124" model="elinvoice.city">
+            <field name="code">09</field>
+            <field name="name">San José Guayabal</field>
+        </record>
+        <record id="city_125" model="elinvoice.city">
+            <field name="code">10</field>
+            <field name="name">San Pedro Perulapán</field>
+        </record>
+        <record id="city_126" model="elinvoice.city">
+            <field name="code">11</field>
+            <field name="name">San Rafael Cedros</field>
+        </record>
+        <record id="city_127" model="elinvoice.city">
+            <field name="code">12</field>
+            <field name="name">San Ramón</field>
+        </record>
+        <record id="city_128" model="elinvoice.city">
+            <field name="code">13</field>
+            <field name="name">Santa Cruz Analquito</field>
+        </record>
+        <record id="city_129" model="elinvoice.city">
+            <field name="code">14</field>
+            <field name="name">Santa Cruz Michapa</field>
+        </record>
+        <record id="city_130" model="elinvoice.city">
+            <field name="code">15</field>
+            <field name="name">Suchitoto</field>
+        </record>
+        <record id="city_131" model="elinvoice.city">
+            <field name="code">16</field>
+            <field name="name">Tenancingo</field>
+        </record>
+        <record id="city_132" model="elinvoice.city">
+            <field name="code">01</field>
+            <field name="name">Cuyultitán</field>
+        </record>
+        <record id="city_133" model="elinvoice.city">
+            <field name="code">02</field>
+            <field name="name">El Rosario</field>
+        </record>
+        <record id="city_134" model="elinvoice.city">
+            <field name="code">03</field>
+            <field name="name">Jerusalén</field>
+        </record>
+        <record id="city_135" model="elinvoice.city">
+            <field name="code">04</field>
+            <field name="name">Mercedes La Ceiba</field>
+        </record>
+        <record id="city_136" model="elinvoice.city">
+            <field name="code">05</field>
+            <field name="name">Olocuilta</field>
+        </record>
+        <record id="city_137" model="elinvoice.city">
+            <field name="code">06</field>
+            <field name="name">Paraíso de Osorio</field>
+        </record>
+        <record id="city_138" model="elinvoice.city">
+            <field name="code">07</field>
+            <field name="name">San Antonio Masahuat</field>
+        </record>
+        <record id="city_139" model="elinvoice.city">
+            <field name="code">08</field>
+            <field name="name">San Emigdio</field>
+        </record>
+        <record id="city_140" model="elinvoice.city">
+            <field name="code">09</field>
+            <field name="name">San Francisco Chinameca</field>
+        </record>
+        <record id="city_141" model="elinvoice.city">
+            <field name="code">10</field>
+            <field name="name">San Juan Nonualco</field>
+        </record>
+        <record id="city_142" model="elinvoice.city">
+            <field name="code">11</field>
+            <field name="name">San Juan Talpa</field>
+        </record>
+        <record id="city_143" model="elinvoice.city">
+            <field name="code">12</field>
+            <field name="name">San Juan Tepezontes</field>
+        </record>
+        <record id="city_144" model="elinvoice.city">
+            <field name="code">13</field>
+            <field name="name">San Luis Talpa</field>
+        </record>
+        <record id="city_145" model="elinvoice.city">
+            <field name="code">14</field>
+            <field name="name">San Miguel Tepezontes</field>
+        </record>
+        <record id="city_146" model="elinvoice.city">
+            <field name="code">15</field>
+            <field name="name">San Pedro Masahuat</field>
+        </record>
+        <record id="city_147" model="elinvoice.city">
+            <field name="code">16</field>
+            <field name="name">San Pedro Nonualco</field>
+        </record>
+        <record id="city_148" model="elinvoice.city">
+            <field name="code">17</field>
+            <field name="name">San Rafael Obrajuelo</field>
+        </record>
+        <record id="city_149" model="elinvoice.city">
+            <field name="code">18</field>
+            <field name="name">Santa María Ostuma</field>
+        </record>
+        <record id="city_150" model="elinvoice.city">
+            <field name="code">19</field>
+            <field name="name">Santiago Nonualco</field>
+        </record>
+        <record id="city_151" model="elinvoice.city">
+            <field name="code">20</field>
+            <field name="name">Tapalhuaca</field>
+        </record>
+        <record id="city_152" model="elinvoice.city">
+            <field name="code">21</field>
+            <field name="name">Zacatecoluca</field>
+        </record>
+        <record id="city_153" model="elinvoice.city">
+            <field name="code">22</field>
+            <field name="name">San Luis la Herradura</field>
+        </record>
+        <record id="city_154" model="elinvoice.city">
+            <field name="code">01</field>
+            <field name="name">Cinquera</field>
+        </record>
+        <record id="city_155" model="elinvoice.city">
+            <field name="code">02</field>
+            <field name="name">Guacotecti</field>
+        </record>
+        <record id="city_156" model="elinvoice.city">
+            <field name="code">03</field>
+            <field name="name">Ilobasco</field>
+        </record>
+        <record id="city_157" model="elinvoice.city">
+            <field name="code">04</field>
+            <field name="name">Jutiapa</field>
+        </record>
+        <record id="city_158" model="elinvoice.city">
+            <field name="code">05</field>
+            <field name="name">San Isidro</field>
+        </record>
+        <record id="city_159" model="elinvoice.city">
+            <field name="code">06</field>
+            <field name="name">Sensuntepeque</field>
+        </record>
+        <record id="city_160" model="elinvoice.city">
+            <field name="code">07</field>
+            <field name="name">Tejutepeque</field>
+        </record>
+        <record id="city_161" model="elinvoice.city">
+            <field name="code">08</field>
+            <field name="name">Victoria</field>
+        </record>
+        <record id="city_162" model="elinvoice.city">
+            <field name="code">09</field>
+            <field name="name">Dolores</field>
+        </record>
+        <record id="city_163" model="elinvoice.city">
+            <field name="code">01</field>
+            <field name="name">Apastepeque</field>
+        </record>
+        <record id="city_164" model="elinvoice.city">
+            <field name="code">02</field>
+            <field name="name">Guadalupe</field>
+        </record>
+        <record id="city_165" model="elinvoice.city">
+            <field name="code">03</field>
+            <field name="name">San Cayetano Istepeque</field>
+        </record>
+        <record id="city_166" model="elinvoice.city">
+            <field name="code">04</field>
+            <field name="name">Santa Clara</field>
+        </record>
+        <record id="city_167" model="elinvoice.city">
+            <field name="code">05</field>
+            <field name="name">Santo Domingo</field>
+        </record>
+        <record id="city_168" model="elinvoice.city">
+            <field name="code">06</field>
+            <field name="name">San Esteban Catarina</field>
+        </record>
+        <record id="city_169" model="elinvoice.city">
+            <field name="code">07</field>
+            <field name="name">San Ildefonso</field>
+        </record>
+        <record id="city_170" model="elinvoice.city">
+            <field name="code">08</field>
+            <field name="name">San Lorenzo</field>
+        </record>
+        <record id="city_171" model="elinvoice.city">
+            <field name="code">09</field>
+            <field name="name">San Sebastián</field>
+        </record>
+        <record id="city_172" model="elinvoice.city">
+            <field name="code">10</field>
+            <field name="name">San Vicente</field>
+        </record>
+        <record id="city_173" model="elinvoice.city">
+            <field name="code">11</field>
+            <field name="name">Tecoluca</field>
+        </record>
+        <record id="city_174" model="elinvoice.city">
+            <field name="code">12</field>
+            <field name="name">Tepetitán</field>
+        </record>
+        <record id="city_175" model="elinvoice.city">
+            <field name="code">13</field>
+            <field name="name">Verapaz</field>
+        </record>
+        <record id="city_176" model="elinvoice.city">
+            <field name="code">01</field>
+            <field name="name">Alegría</field>
+        </record>
+        <record id="city_177" model="elinvoice.city">
+            <field name="code">02</field>
+            <field name="name">Berlín</field>
+        </record>
+        <record id="city_178" model="elinvoice.city">
+            <field name="code">03</field>
+            <field name="name">California</field>
+        </record>
+        <record id="city_179" model="elinvoice.city">
+            <field name="code">04</field>
+            <field name="name">Concepción Batres</field>
+        </record>
+        <record id="city_180" model="elinvoice.city">
+            <field name="code">05</field>
+            <field name="name">El Triunfo</field>
+        </record>
+        <record id="city_181" model="elinvoice.city">
+            <field name="code">06</field>
+            <field name="name">Ereguayquín</field>
+        </record>
+        <record id="city_182" model="elinvoice.city">
+            <field name="code">07</field>
+            <field name="name">Estanzuelas</field>
+        </record>
+        <record id="city_183" model="elinvoice.city">
+            <field name="code">08</field>
+            <field name="name">Jiquilisco</field>
+        </record>
+        <record id="city_184" model="elinvoice.city">
+            <field name="code">09</field>
+            <field name="name">Jucuapa</field>
+        </record>
+        <record id="city_185" model="elinvoice.city">
+            <field name="code">10</field>
+            <field name="name">Jucuarán</field>
+        </record>
+        <record id="city_186" model="elinvoice.city">
+            <field name="code">11</field>
+            <field name="name">Mercedes Umaña</field>
+        </record>
+        <record id="city_187" model="elinvoice.city">
+            <field name="code">12</field>
+            <field name="name">Nueva Granada</field>
+        </record>
+        <record id="city_188" model="elinvoice.city">
+            <field name="code">13</field>
+            <field name="name">Ozatlán</field>
+        </record>
+        <record id="city_189" model="elinvoice.city">
+            <field name="code">14</field>
+            <field name="name">Puerto El Triunfo</field>
+        </record>
+        <record id="city_190" model="elinvoice.city">
+            <field name="code">15</field>
+            <field name="name">San Agustín</field>
+        </record>
+        <record id="city_191" model="elinvoice.city">
+            <field name="code">16</field>
+            <field name="name">San Buenaventura</field>
+        </record>
+        <record id="city_192" model="elinvoice.city">
+            <field name="code">17</field>
+            <field name="name">San Dionisio</field>
+        </record>
+        <record id="city_193" model="elinvoice.city">
+            <field name="code">18</field>
+            <field name="name">Santa Elena</field>
+        </record>
+        <record id="city_194" model="elinvoice.city">
+            <field name="code">19</field>
+            <field name="name">San Francisco Javier</field>
+        </record>
+        <record id="city_195" model="elinvoice.city">
+            <field name="code">20</field>
+            <field name="name">Santa María</field>
+        </record>
+        <record id="city_196" model="elinvoice.city">
+            <field name="code">21</field>
+            <field name="name">Santiago de María</field>
+        </record>
+        <record id="city_197" model="elinvoice.city">
+            <field name="code">22</field>
+            <field name="name">Tecapán</field>
+        </record>
+        <record id="city_198" model="elinvoice.city">
+            <field name="code">23</field>
+            <field name="name">Usulután</field>
+        </record>
+        <record id="city_199" model="elinvoice.city">
+            <field name="code">01</field>
+            <field name="name">Carolina</field>
+        </record>
+        <record id="city_200" model="elinvoice.city">
+            <field name="code">02</field>
+            <field name="name">Ciudad Barrios</field>
+        </record>
+        <record id="city_201" model="elinvoice.city">
+            <field name="code">03</field>
+            <field name="name">Comacarán</field>
+        </record>
+        <record id="city_202" model="elinvoice.city">
+            <field name="code">04</field>
+            <field name="name">Chapeltique</field>
+        </record>
+        <record id="city_203" model="elinvoice.city">
+            <field name="code">05</field>
+            <field name="name">Chinameca</field>
+        </record>
+        <record id="city_204" model="elinvoice.city">
+            <field name="code">06</field>
+            <field name="name">Chirilagua</field>
+        </record>
+        <record id="city_205" model="elinvoice.city">
+            <field name="code">07</field>
+            <field name="name">El Tránsito</field>
+        </record>
+        <record id="city_206" model="elinvoice.city">
+            <field name="code">08</field>
+            <field name="name">Lolotique</field>
+        </record>
+        <record id="city_207" model="elinvoice.city">
+            <field name="code">09</field>
+            <field name="name">Moncagua</field>
+        </record>
+        <record id="city_208" model="elinvoice.city">
+            <field name="code">10</field>
+            <field name="name">Nueva Guadalupe</field>
+        </record>
+        <record id="city_209" model="elinvoice.city">
+            <field name="code">11</field>
+            <field name="name">Nuevo Edén de San Juan</field>
+        </record>
+        <record id="city_210" model="elinvoice.city">
+            <field name="code">12</field>
+            <field name="name">Quelepa</field>
+        </record>
+        <record id="city_211" model="elinvoice.city">
+            <field name="code">13</field>
+            <field name="name">San Antonio</field>
+        </record>
+        <record id="city_212" model="elinvoice.city">
+            <field name="code">14</field>
+            <field name="name">San Gerardo</field>
+        </record>
+        <record id="city_213" model="elinvoice.city">
+            <field name="code">15</field>
+            <field name="name">San Jorge</field>
+        </record>
+        <record id="city_214" model="elinvoice.city">
+            <field name="code">16</field>
+            <field name="name">San Luis Reina</field>
+        </record>
+        <record id="city_215" model="elinvoice.city">
+            <field name="code">17</field>
+            <field name="name">San Miguel</field>
+        </record>
+        <record id="city_216" model="elinvoice.city">
+            <field name="code">18</field>
+            <field name="name">San Rafael Oriente</field>
+        </record>
+        <record id="city_217" model="elinvoice.city">
+            <field name="code">19</field>
+            <field name="name">Sesori</field>
+        </record>
+        <record id="city_218" model="elinvoice.city">
+            <field name="code">20</field>
+            <field name="name">Uluazapa</field>
+        </record>
+        <record id="city_219" model="elinvoice.city">
+            <field name="code">01</field>
+            <field name="name">Arambala</field>
+        </record>
+        <record id="city_220" model="elinvoice.city">
+            <field name="code">02</field>
+            <field name="name">Cacaopera</field>
+        </record>
+        <record id="city_221" model="elinvoice.city">
+            <field name="code">03</field>
+            <field name="name">Corinto</field>
+        </record>
+        <record id="city_222" model="elinvoice.city">
+            <field name="code">04</field>
+            <field name="name">Chilanga</field>
+        </record>
+        <record id="city_223" model="elinvoice.city">
+            <field name="code">05</field>
+            <field name="name">Delicias de Concepción</field>
+        </record>
+        <record id="city_224" model="elinvoice.city">
+            <field name="code">06</field>
+            <field name="name">El Divisadero</field>
+        </record>
+        <record id="city_225" model="elinvoice.city">
+            <field name="code">07</field>
+            <field name="name">El Rosario</field>
+        </record>
+        <record id="city_226" model="elinvoice.city">
+            <field name="code">08</field>
+            <field name="name">Gualococti</field>
+        </record>
+        <record id="city_227" model="elinvoice.city">
+            <field name="code">09</field>
+            <field name="name">Guatajiagua</field>
+        </record>
+        <record id="city_228" model="elinvoice.city">
+            <field name="code">10</field>
+            <field name="name">Joateca</field>
+        </record>
+        <record id="city_229" model="elinvoice.city">
+            <field name="code">11</field>
+            <field name="name">Jocoaitique</field>
+        </record>
+        <record id="city_230" model="elinvoice.city">
+            <field name="code">12</field>
+            <field name="name">Jocoro</field>
+        </record>
+        <record id="city_231" model="elinvoice.city">
+            <field name="code">13</field>
+            <field name="name">Lolotiquillo</field>
+        </record>
+        <record id="city_232" model="elinvoice.city">
+            <field name="code">14</field>
+            <field name="name">Meanguera</field>
+        </record>
+        <record id="city_233" model="elinvoice.city">
+            <field name="code">15</field>
+            <field name="name">Osicala</field>
+        </record>
+        <record id="city_234" model="elinvoice.city">
+            <field name="code">16</field>
+            <field name="name">Perquín</field>
+        </record>
+        <record id="city_235" model="elinvoice.city">
+            <field name="code">17</field>
+            <field name="name">San Carlos</field>
+        </record>
+        <record id="city_236" model="elinvoice.city">
+            <field name="code">18</field>
+            <field name="name">San Fernando</field>
+        </record>
+        <record id="city_237" model="elinvoice.city">
+            <field name="code">19</field>
+            <field name="name">San Francisco Gotera</field>
+        </record>
+        <record id="city_238" model="elinvoice.city">
+            <field name="code">20</field>
+            <field name="name">San Isidro</field>
+        </record>
+        <record id="city_239" model="elinvoice.city">
+            <field name="code">21</field>
+            <field name="name">San Simón</field>
+        </record>
+        <record id="city_240" model="elinvoice.city">
+            <field name="code">22</field>
+            <field name="name">Sensembra</field>
+        </record>
+        <record id="city_241" model="elinvoice.city">
+            <field name="code">23</field>
+            <field name="name">Sociedad</field>
+        </record>
+        <record id="city_242" model="elinvoice.city">
+            <field name="code">24</field>
+            <field name="name">Torola</field>
+        </record>
+        <record id="city_243" model="elinvoice.city">
+            <field name="code">25</field>
+            <field name="name">Yamabal</field>
+        </record>
+        <record id="city_244" model="elinvoice.city">
+            <field name="code">26</field>
+            <field name="name">Yoloaiquín</field>
+        </record>
+        <record id="city_245" model="elinvoice.city">
+            <field name="code">01</field>
+            <field name="name">Anamorós</field>
+        </record>
+        <record id="city_246" model="elinvoice.city">
+            <field name="code">02</field>
+            <field name="name">Bolívar</field>
+        </record>
+        <record id="city_247" model="elinvoice.city">
+            <field name="code">03</field>
+            <field name="name">Concepción de Oriente</field>
+        </record>
+        <record id="city_248" model="elinvoice.city">
+            <field name="code">04</field>
+            <field name="name">Conchagua</field>
+        </record>
+        <record id="city_249" model="elinvoice.city">
+            <field name="code">05</field>
+            <field name="name">El Carmen</field>
+        </record>
+        <record id="city_250" model="elinvoice.city">
+            <field name="code">06</field>
+            <field name="name">El Sauce</field>
+        </record>
+        <record id="city_251" model="elinvoice.city">
+            <field name="code">07</field>
+            <field name="name">Intipucá</field>
+        </record>
+        <record id="city_252" model="elinvoice.city">
+            <field name="code">08</field>
+            <field name="name">La Unión</field>
+        </record>
+        <record id="city_253" model="elinvoice.city">
+            <field name="code">09</field>
+            <field name="name">Lislique</field>
+        </record>
+        <record id="city_254" model="elinvoice.city">
+            <field name="code">10</field>
+            <field name="name">Meanguera del Golfo</field>
+        </record>
+        <record id="city_255" model="elinvoice.city">
+            <field name="code">11</field>
+            <field name="name">Nueva Esparta</field>
+        </record>
+        <record id="city_256" model="elinvoice.city">
+            <field name="code">12</field>
+            <field name="name">Pasaquina</field>
+        </record>
+        <record id="city_257" model="elinvoice.city">
+            <field name="code">13</field>
+            <field name="name">Polorós</field>
+        </record>
+        <record id="city_258" model="elinvoice.city">
+            <field name="code">14</field>
+            <field name="name">San Alejo</field>
+        </record>
+        <record id="city_259" model="elinvoice.city">
+            <field name="code">15</field>
+            <field name="name">San José</field>
+        </record>
+        <record id="city_260" model="elinvoice.city">
+            <field name="code">16</field>
+            <field name="name">Santa Rosa de Lima</field>
+        </record>
+        <record id="city_261" model="elinvoice.city">
+            <field name="code">17</field>
+            <field name="name">Yayantique</field>
+        </record>
+        <record id="city_262" model="elinvoice.city">
+            <field name="code">18</field>
+            <field name="name">Yucuaiquín</field>
+        </record>
+    </data>
+</odoo>

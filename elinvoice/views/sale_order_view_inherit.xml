@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_order_form_inherit_elinvoice" model="ir.ui.view">
+            <field name="name">sale.order.form.inherit.elinvoice</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//sheet//notebook" position="inside">
+                    <page string="Confirmacion MH">
+                        <field name="confirmation_id">
+                            <list>
+                                <field name="received_seal" />
+                                <field name="control_number" />
+                                <field name="authorization_date" />
+                                <field name="url_qr" />
+                                <field name="uid_de" />
+                                <field name="status" option="hide" />
+                                <field name="message" option="hide" />
+                            </list>
+                        </field>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

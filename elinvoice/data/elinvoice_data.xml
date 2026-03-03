@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="elinvoice_settings" model="elinvoice.configuration">
+            <!-- API Facturador -->
+            <!-- <field name="api_url">https://demo.zaapdos.staffilab.com/api</field> -->
+            <!-- <field name="api_url">https://app.zaapdos.com/api</field> -->
+            <field name="api_url">https://odoo.zaapdos.com/api</field>
+        </record>
+    </data>
+</odoo>
